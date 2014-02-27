@@ -8,7 +8,7 @@
 return array(
 	'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
 	'name'=>'Reed\'s Account Book',
-	'homeUrl'=>'http://localhost/accountbook/index.php',
+	'homeUrl'=>'http://www.reedbell.com/accountbook/index.php',
 
 	// preloading 'log' component
 	'preload'=>array('log'),
@@ -55,10 +55,10 @@ return array(
 		*/		
 		
 		'db'=>array(
-			'connectionString' => 'mysql:host=localhost;dbname=accountbook',
+			'connectionString' => 'mysql:host=reeed7.db.7661963.hostedresource.com;dbname=reeed7',
 			'emulatePrepare' => true,
 			'username' => 'reeed7',
-			'password' => 'forkitty',
+			'password' => 'Forkitty@29',
 			'charset' => 'utf8',
 		),
 		

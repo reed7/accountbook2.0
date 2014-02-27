@@ -54,7 +54,7 @@ function resetDetailForm() {
 	document.getElementById('account_date').value = document.getElementById('today').value;
 	document.getElementById('location').value = '';
 	document.getElementById('comment').innerHTML = '';
-	document.getElementById('itemDetailForm').action = 'index.php/accountitem/save/0';
+	document.getElementById('itemDetailForm').action = 'index.php?r=accountitem/save&id=0';
 	document.getElementById('submitBtn').value = 'Create';
 }
 
@@ -70,7 +70,7 @@ function fillUpdateForm(data){
 	document.getElementById('account_date').value = data['account_date'];
 	document.getElementById('location').value = data['location'];
 	document.getElementById('comment').innerHTML = data['comment'];
-	document.getElementById('itemDetailForm').action = 'index.php/accountitem/save/' + data['id']; 
+	document.getElementById('itemDetailForm').action = 'index.php?r=accountitem/save&id=' + data['id']; 
 	document.getElementById('submitBtn').value = 'Update';
 	$("#itemDetailDialog").dialog('open');
 }
