@@ -1,0 +1,42 @@
+@CHARSET "UTF-8";
+
+.edit_form {
+	padding-top: 10px
+}
+
+.edit_label {
+	font-size: 14px;
+	color: black;
+	font-family: Arial;
+	padding-right: 5px
+}
+
+.edit_input {
+	margin: 5px 0px;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+	margin-right: 10px;
+}
+
+.commentDiv {
+	border-bottom: 1px solid gray;
+	padding-bottom: 8px;
+	margin-bottom: 8px;
+}
+
+.submitBtnDiv {
+	text-align: center;
+	padding-top: 5px;
+	margin-top: 10px;
+}
+
+.submitBtn {
+	width: 90px;
+	height: 30px;
+}

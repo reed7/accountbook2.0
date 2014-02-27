@@ -1,0 +1,15 @@
+@CHARSET "UTF-8";
+
+select {
+	height: 20px;
+	width: 70px;
+}
+
+.row {
+	margin: 5px 10px 5px 10px;
+	font-size: 15px;
+}
+
+.statisticBtnDiv {
+	text-align: center;
+}
