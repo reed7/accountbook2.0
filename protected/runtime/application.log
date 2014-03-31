@@ -3676,3 +3676,136 @@ HTTP_REFERER=http://www.reedbell.com/accountbook/index.php
 2014/02/27 08:46:52 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->玉米、鸡蛋、葱, balance->9.56, type->1]
 2014/02/27 08:47:22 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->葱、玉米、鸡蛋, balance->9.56, type->1]
 2014/02/27 08:47:41 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->2323, balance->2323, type->1]
+2014/03/29 20:39:01 [error] [exception.CDbException] SQLSTATE[28000] [1045] Access denied for user 'reeed7'@'localhost' (using password: YES)
+2014/03/29 20:39:01 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection.' in /var/www/html/accountbook/framework/db/CDbConnection.php:388
+Stack trace:
+#0 /var/www/html/accountbook/framework/db/CDbConnection.php(331): CDbConnection->open()
+#1 /var/www/html/accountbook/framework/db/CDbConnection.php(309): CDbConnection->setActive(true)
+#2 /var/www/html/accountbook/framework/base/CModule.php(388): CDbConnection->init()
+#3 /var/www/html/accountbook/framework/base/CApplication.php(431): CModule->getComponent('db')
+#4 /var/www/html/accountbook/framework/db/ar/CActiveRecord.php(615): CApplication->getDb()
+#5 /var/www/html/accountbook/framework/db/ar/CActiveRecord.php(2263): CActiveRecord->getDbConnection()
+#6 /var/www/html/accountbook/framework/db/ar/CActiveRecord.php(379): CActiveRecordMetaData->__construct(Object(AccountItem))
+#7 /var/www/html/accountbook/protected/models/AccountItem.php(38): CActiveRecord::model('AccountItem')
+#8 /var/www/html/accountbook/protected/controllers/AccountitemController.php(11): AccountItem::model()
+#9 /var/www/html/accountbook/framework/web/actions/CInlineAction.php(50): AccountItemController->actionIndex()
+#10 /var/www/html/accountbook/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#11 /var/www/html/accountbook/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#12 /var/www/html/accountbook/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#13 /var/www/html/accountbook/framework/web/filters/CFilterChain.php(131): CFilter->filter(Object(CFilterChain))
+#14 /var/www/html/accountbook/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#15 /var/www/html/accountbook/framework/web/filters/CFilterChain.php(131): CFilter->filter(Object(CFilterChain))
+#16 /var/www/html/accountbook/framework/web/CController.php(292): CFilterChain->run()
+#17 /var/www/html/accountbook/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 /var/www/html/accountbook/framework/web/CWebApplication.php(276): CController->run('')
+#19 /var/www/html/accountbook/framework/web/CWebApplication.php(135): CWebApplication->runController('')
+#20 /var/www/html/accountbook/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#21 /var/www/html/accountbook/index.php(15): CApplication->run()
+#22 {main}
+REQUEST_URI=/accountbook/
+---
+2014/03/29 20:39:28 [error] [exception.CDbException] SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+2014/03/29 20:39:28 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection.' in /var/www/html/accountbook/framework/db/CDbConnection.php:388
+Stack trace:
+#0 /var/www/html/accountbook/framework/db/CDbConnection.php(331): CDbConnection->open()
+#1 /var/www/html/accountbook/framework/db/CDbConnection.php(309): CDbConnection->setActive(true)
+#2 /var/www/html/accountbook/framework/base/CModule.php(388): CDbConnection->init()
+#3 /var/www/html/accountbook/framework/base/CApplication.php(431): CModule->getComponent('db')
+#4 /var/www/html/accountbook/framework/db/ar/CActiveRecord.php(615): CApplication->getDb()
+#5 /var/www/html/accountbook/framework/db/ar/CActiveRecord.php(2263): CActiveRecord->getDbConnection()
+#6 /var/www/html/accountbook/framework/db/ar/CActiveRecord.php(379): CActiveRecordMetaData->__construct(Object(AccountItem))
+#7 /var/www/html/accountbook/protected/models/AccountItem.php(38): CActiveRecord::model('AccountItem')
+#8 /var/www/html/accountbook/protected/controllers/AccountitemController.php(11): AccountItem::model()
+#9 /var/www/html/accountbook/framework/web/actions/CInlineAction.php(50): AccountItemController->actionIndex()
+#10 /var/www/html/accountbook/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#11 /var/www/html/accountbook/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#12 /var/www/html/accountbook/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#13 /var/www/html/accountbook/framework/web/filters/CFilterChain.php(131): CFilter->filter(Object(CFilterChain))
+#14 /var/www/html/accountbook/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#15 /var/www/html/accountbook/framework/web/filters/CFilterChain.php(131): CFilter->filter(Object(CFilterChain))
+#16 /var/www/html/accountbook/framework/web/CController.php(292): CFilterChain->run()
+#17 /var/www/html/accountbook/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 /var/www/html/accountbook/framework/web/CWebApplication.php(276): CController->run('')
+#19 /var/www/html/accountbook/framework/web/CWebApplication.php(135): CWebApplication->runController('')
+#20 /var/www/html/accountbook/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#21 /var/www/html/accountbook/index.php(15): CApplication->run()
+#22 {main}
+REQUEST_URI=/accountbook/
+---
+2014/03/29 20:40:10 [error] [exception.CException] exception 'CException' with message 'CAssetManager.basePath "/var/www/html/accountbook/assets" is invalid. Please make sure the directory exists and is writable by the Web server process.' in /var/www/html/accountbook/framework/web/CAssetManager.php:116
+Stack trace:
+#0 /var/www/html/accountbook/framework/web/CAssetManager.php(101): CAssetManager->setBasePath('/var/www/html/a...')
+#1 /var/www/html/accountbook/framework/web/CAssetManager.php(188): CAssetManager->getBasePath()
+#2 /var/www/html/accountbook/framework/web/helpers/CHtml.php(1067): CAssetManager->publish('/var/www/html/a...', false)
+#3 /var/www/html/accountbook/framework/web/widgets/pagers/CLinkPager.php(192): CHtml::asset('/var/www/html/a...')
+#4 /var/www/html/accountbook/framework/web/widgets/pagers/CLinkPager.php(182): CLinkPager::registerCssFile(NULL)
+#5 /var/www/html/accountbook/framework/web/widgets/pagers/CLinkPager.php(97): CLinkPager->registerClientScript()
+#6 /var/www/html/accountbook/framework/web/CBaseController.php(174): CLinkPager->run()
+#7 /var/www/html/accountbook/protected/views/widgets/account_list.php(74): CBaseController->widget('CLinkPager', Array)
+#8 /var/www/html/accountbook/protected/views/accountitem/account_main.php(62): include('/var/www/html/a...')
+#9 /var/www/html/accountbook/framework/web/CBaseController.php(127): require('/var/www/html/a...')
+#10 /var/www/html/accountbook/framework/web/CBaseController.php(96): CBaseController->renderInternal('/var/www/html/a...', Array, true)
+#11 /var/www/html/accountbook/framework/web/CController.php(870): CBaseController->renderFile('/var/www/html/a...', Array, true)
+#12 /var/www/html/accountbook/framework/web/CController.php(783): CController->renderPartial('account_main', Array, true)
+#13 /var/www/html/accountbook/protected/controllers/AccountitemController.php(25): CController->render('account_main', Array)
+#14 /var/www/html/accountbook/framework/web/actions/CInlineAction.php(50): AccountItemController->actionIndex()
+#15 /var/www/html/accountbook/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#16 /var/www/html/accountbook/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#17 /var/www/html/accountbook/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#18 /var/www/html/accountbook/framework/web/filters/CFilterChain.php(131): CFilter->filter(Object(CFilterChain))
+#19 /var/www/html/accountbook/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#20 /var/www/html/accountbook/framework/web/filters/CFilterChain.php(131): CFilter->filter(Object(CFilterChain))
+#21 /var/www/html/accountbook/framework/web/CController.php(292): CFilterChain->run()
+#22 /var/www/html/accountbook/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#23 /var/www/html/accountbook/framework/web/CWebApplication.php(276): CController->run('')
+#24 /var/www/html/accountbook/framework/web/CWebApplication.php(135): CWebApplication->runController('')
+#25 /var/www/html/accountbook/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#26 /var/www/html/accountbook/index.php(15): CApplication->run()
+#27 {main}
+REQUEST_URI=/accountbook/
+---
+2014/03/29 20:40:31 [error] [exception.CException] exception 'CException' with message 'CAssetManager.basePath "/var/www/html/accountbook/assets" is invalid. Please make sure the directory exists and is writable by the Web server process.' in /var/www/html/accountbook/framework/web/CAssetManager.php:116
+Stack trace:
+#0 /var/www/html/accountbook/framework/web/CAssetManager.php(101): CAssetManager->setBasePath('/var/www/html/a...')
+#1 /var/www/html/accountbook/framework/web/CAssetManager.php(188): CAssetManager->getBasePath()
+#2 /var/www/html/accountbook/framework/web/helpers/CHtml.php(1067): CAssetManager->publish('/var/www/html/a...', false)
+#3 /var/www/html/accountbook/framework/web/widgets/pagers/CLinkPager.php(192): CHtml::asset('/var/www/html/a...')
+#4 /var/www/html/accountbook/framework/web/widgets/pagers/CLinkPager.php(182): CLinkPager::registerCssFile(NULL)
+#5 /var/www/html/accountbook/framework/web/widgets/pagers/CLinkPager.php(97): CLinkPager->registerClientScript()
+#6 /var/www/html/accountbook/framework/web/CBaseController.php(174): CLinkPager->run()
+#7 /var/www/html/accountbook/protected/views/widgets/account_list.php(74): CBaseController->widget('CLinkPager', Array)
+#8 /var/www/html/accountbook/protected/views/accountitem/account_main.php(62): include('/var/www/html/a...')
+#9 /var/www/html/accountbook/framework/web/CBaseController.php(127): require('/var/www/html/a...')
+#10 /var/www/html/accountbook/framework/web/CBaseController.php(96): CBaseController->renderInternal('/var/www/html/a...', Array, true)
+#11 /var/www/html/accountbook/framework/web/CController.php(870): CBaseController->renderFile('/var/www/html/a...', Array, true)
+#12 /var/www/html/accountbook/framework/web/CController.php(783): CController->renderPartial('account_main', Array, true)
+#13 /var/www/html/accountbook/protected/controllers/AccountitemController.php(25): CController->render('account_main', Array)
+#14 /var/www/html/accountbook/framework/web/actions/CInlineAction.php(50): AccountItemController->actionIndex()
+#15 /var/www/html/accountbook/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#16 /var/www/html/accountbook/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#17 /var/www/html/accountbook/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#18 /var/www/html/accountbook/framework/web/filters/CFilterChain.php(131): CFilter->filter(Object(CFilterChain))
+#19 /var/www/html/accountbook/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#20 /var/www/html/accountbook/framework/web/filters/CFilterChain.php(131): CFilter->filter(Object(CFilterChain))
+#21 /var/www/html/accountbook/framework/web/CController.php(292): CFilterChain->run()
+#22 /var/www/html/accountbook/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#23 /var/www/html/accountbook/framework/web/CWebApplication.php(276): CController->run('')
+#24 /var/www/html/accountbook/framework/web/CWebApplication.php(135): CWebApplication->runController('')
+#25 /var/www/html/accountbook/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#26 /var/www/html/accountbook/index.php(15): CApplication->run()
+#27 {main}
+REQUEST_URI=/accountbook/
+---
+2014/03/29 20:51:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "accountStatistic?AccountStatisticForm[statisticYear]=2014".' in /var/www/html/accountbook/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /var/www/html/accountbook/framework/web/CWebApplication.php(135): CWebApplication->runController('accountStatisti...')
+#1 /var/www/html/accountbook/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /var/www/html/accountbook/index.php(15): CApplication->run()
+#3 {main}
+REQUEST_URI=/accountbook/index.php/?r=accountStatistic?AccountStatisticForm%5BstatisticYear%5D=2014&AccountStatisticForm%5BstatisticMonth%5D=0&AccountStatisticForm%5BstatisticType%5D=0
+---
+2014/03/29 20:56:17 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->测试, balance->123, type->1]
+2014/03/30 21:44:57 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->苹果、香蕉, balance->3.9, type->1]
+2014/03/30 21:45:27 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->恰恰烤花生, balance->3, type->1]
+2014/03/30 21:46:07 [info] [application] $model failed to pass the validation and request is being redirected to the main page with validation error information.[name->豆苗、鸡翅、鸡蛋、牛奶、蘑菇, balance->15.61, type->1]
+2014/03/30 21:46:35 [info] [application] $model failed to pass the validation and request is being redirected to the main page with validation error information.[name->豆苗鸡蛋鸡翅牛奶蘑菇, balance->15.61, type->1]

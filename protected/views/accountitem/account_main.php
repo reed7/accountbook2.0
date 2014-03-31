@@ -16,7 +16,8 @@
 
 <div class='modal_dlg' id='statisticDialog'>
 	<div id="statisticForm">
-	<form action=<?php echo Yii::app()->homeUrl . '/accountstatistic';?> method='get' target='_blank'>	
+		<form action="<?php echo Yii::app()->homeUrl;?>" method='get' target='_blank'>
+                        <input type='hidden' name='r' value="accountStatistic">
 			<div class='row'>			
 				时间：
 				<select name='AccountStatisticForm[statisticYear]'>
@@ -25,7 +26,10 @@
 					<option value="2009">2009</option>
 					<option value="2010">2010</option>
 					<option value="2011">2011</option>
-					<option value="2012" selected>2012</option>
+					<option value="2012">2012</option>
+					<option value="2013">2013</option>
+					<option value="2014" selected>2014</option>
+					<option value="2015">2015</option>
 				</select>
 				<select name="AccountStatisticForm[statisticMonth]">
 					<option value="0">月</option>
