@@ -21,7 +21,7 @@
 			}
 		
 		?>
-			<tr <?php if($rowIdx % 2 == 0) echo 'class="alt"'?>><td><?php echo $statisticItem->category_id?></td>			
+			<tr <?php if($rowIdx % 2 == 0) echo 'class="alt"'?>><td><?php echo $statisticItem->category_name?></td>			
 			<td class='<?php echo $className?>'><?php echo $balance?></td></tr>
 			
 		<?php } // end foreach?>
