@@ -35,6 +35,10 @@ tr.alt {
 	background-color: #E9EAEA;
 }
 
+tr.focus {
+	background-color: #A9E2F3;
+}
+
 td.black_total {
 	width: 100px;
 	text-align: right;

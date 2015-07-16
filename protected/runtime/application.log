@@ -3837,3 +3837,1260 @@ Stack trace:
 REQUEST_URI=/accountbook/index.php?r=accountStatistic&AccountStatisticForm%5BstatisticYear%5D=2014&AccountStatisticForm%5BstatisticMonth%5D=0&AccountStatisticForm%5BstatisticType%5D=0
 HTTP_REFERER=http://www.reedbell.com/accountbook/index.php
 ---
+2014/04/02 21:31:52 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->午饭, balance->8.5, type->1]
+2014/04/05 13:49:35 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->生菜、花生酱、面包, balance->6.5, type->1]
+2014/04/05 13:51:40 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->手套、洗碗布, balance->4.2, type->1]
+2014/04/05 13:51:43 [info] [application] ajax request received!
+2014/04/05 13:51:46 [info] [application] $model has passed the validation, going to [UPDATE] to DB.[name->手套、洗碗布, balance->4.2, type->1]
+2014/04/05 13:52:59 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->果汁、巧克力、啤酒, balance->17.9, type->1]
+2014/04/05 13:53:03 [info] [application] ajax request received!
+2014/04/05 13:53:06 [info] [application] $model has passed the validation, going to [UPDATE] to DB.[name->果汁、巧克力、啤酒, balance->17.9, type->1]
+2014/04/05 13:53:48 [info] [application] ajax request received!
+2014/04/05 13:54:22 [info] [application] $model failed to pass the validation and request is being redirected to the main page with validation error information.[name->洗碗手套、橡胶手套、洗碗布, balance->6.88, type->1]
+2014/04/05 13:54:27 [info] [application] ajax request received!
+2014/04/05 13:54:37 [info] [application] $model has passed the validation, going to [UPDATE] to DB.[name->手套两副、洗碗布, balance->6.88, type->1]
+2014/04/05 13:54:37 [error] [php] Undefined index: AccountItem (/var/www/html/accountbook/protected/controllers/AccountitemController.php:41)
+Stack trace:
+#0 /var/www/html/accountbook/framework/web/actions/CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#1 /var/www/html/accountbook/framework/web/CController.php(309): CInlineAction->runWithParams()
+#2 /var/www/html/accountbook/framework/web/filters/CFilterChain.php(134): AccountItemController->runAction()
+#3 /var/www/html/accountbook/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#4 /var/www/html/accountbook/framework/web/filters/CFilterChain.php(131): UserLoginFilter->filter()
+#5 /var/www/html/accountbook/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#6 /var/www/html/accountbook/framework/web/filters/CFilterChain.php(131): ESetReturnUrlFilter->filter()
+#7 /var/www/html/accountbook/framework/web/CController.php(292): CFilterChain->run()
+#8 /var/www/html/accountbook/framework/web/CController.php(266): AccountItemController->runActionWithFilters()
+#9 /var/www/html/accountbook/framework/web/CWebApplication.php(276): AccountItemController->run()
+#10 /var/www/html/accountbook/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#11 /var/www/html/accountbook/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#12 /var/www/html/accountbook/index.php(15): CWebApplication->run()
+REQUEST_URI=/accountbook/index.php?r=accountitem/save&id=2775
+2014/04/05 13:55:15 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->排骨, balance->5.44, type->1]
+2014/04/06 15:46:07 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->晚饭, balance->5.9, type->1]
+2014/04/06 15:47:23 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->米酱油料酒西兰花等, balance->38.57, type->1]
+2014/04/06 15:47:58 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->午饭, balance->3.15, type->1]
+2014/04/09 12:47:59 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->午饭, balance->11, type->1]
+2014/04/09 12:48:33 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->鸡蛋牛奶猪肉, balance->9.9, type->1]
+2014/04/09 12:48:54 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->房租, balance->1200, type->1]
+2014/04/09 19:17:56 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->加油, balance->45, type->1]
+2014/04/09 19:18:05 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->洗车, balance->10, type->1]
+2014/04/09 21:43:48 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->模型, balance->57, type->1]
+2014/04/10 13:26:12 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->模型, balance->27, type->1]
+2014/04/11 14:35:53 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->午饭, balance->6.6, type->1]
+2014/04/14 23:29:03 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->香蕉, balance->1.08, type->1]
+2014/04/14 23:29:07 [info] [application] ajax request received!
+2014/04/14 23:29:11 [info] [application] $model has passed the validation, going to [UPDATE] to DB.[name->香蕉, balance->1.08, type->1]
+2014/04/14 23:29:32 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->漱口水, balance->4.97, type->1]
+2014/04/14 23:29:33 [info] [application] ajax request received!
+2014/04/14 23:29:37 [info] [application] $model has passed the validation, going to [UPDATE] to DB.[name->漱口水, balance->4.97, type->1]
+2014/04/14 23:30:47 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->水、面包, balance->2.5, type->1]
+2014/04/14 23:33:46 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->蘑菇、葱、芥蓝等, balance->10.72, type->1]
+2014/04/14 23:34:00 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->果汁, balance->2.8, type->1]
+2014/04/16 21:12:00 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->芦笋、芝麻包、豆腐, balance->5.78, type->1]
+2014/04/16 21:12:16 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->蛋花酥, balance->2.6, type->1]
+2014/04/16 21:12:32 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->午饭, balance->12, type->1]
+2014/04/16 21:14:39 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->Salary, balance->2245, type->2]
+2014/04/17 22:40:16 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->模型漆、打磨棒, balance->35, type->1]
+2014/04/18 13:15:27 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->午饭, balance->15, type->1]
+2014/04/20 20:50:07 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->苹果, balance->4, type->1]
+2014/04/20 20:50:32 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->鸡腿、青菜、姜, balance->5.87, type->1]
+2014/04/20 20:51:21 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->加油, balance->39, type->1]
+2014/04/20 20:52:43 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->薯片、巧克力饼干, balance->7.6, type->1]
+2014/04/20 20:54:36 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->牛奶、苏打饼, balance->8.66, type->1]
+2014/04/20 20:56:19 [info] [application] ajax request received!
+2014/04/20 20:56:23 [info] [application] $model has passed the validation, going to [UPDATE] to DB.[name->牛奶、鸡蛋, balance->8.66, type->1]
+2014/04/20 20:57:07 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->牙签、打火机, balance->2.8, type->1]
+2014/04/20 20:57:11 [info] [application] ajax request received!
+2014/04/20 20:57:21 [info] [application] $model has passed the validation, going to [UPDATE] to DB.[name->牙签、打火机, balance->2.8, type->1]
+2014/04/20 20:57:33 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->苏打饼, balance->2.39, type->1]
+2014/04/20 20:57:34 [info] [application] ajax request received!
+2014/04/20 20:57:38 [info] [application] $model has passed the validation, going to [UPDATE] to DB.[name->苏打饼, balance->2.39, type->1]
+2014/04/22 21:16:53 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->模型制作材料, balance->35, type->1]
+2014/04/23 18:42:53 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->Lunch, balance->9.1, type->1]
+2014/04/25 11:29:27 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->午饭, balance->8, type->1]
+2014/04/25 11:29:39 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->晚饭, balance->30, type->1]
+2014/04/26 11:07:10 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->土豆水饺牛柳等, balance->17.57, type->1]
+2014/04/26 11:07:31 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->SPA, balance->40, type->1]
+2014/04/26 11:07:44 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->午饭晚饭, balance->20.6, type->1]
+2014/04/29 20:43:37 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->土豆水饺牛肉等, balance->17.57, type->1]
+2014/04/29 20:44:15 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->果汁、苹果, balance->5, type->1]
+2014/04/29 20:44:53 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->排骨、醋、萝卜, balance->8.14, type->1]
+2014/04/29 20:45:51 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->生菜、面包, balance->4.6, type->1]
+2014/04/29 20:47:05 [info] [application] ajax request received!
+2014/04/29 20:47:16 [info] [application] $model has passed the validation, going to [UPDATE] to DB.[name->生菜、面包, balance->4.1, type->1]
+2014/04/29 20:47:37 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->巧克力, balance->2.03, type->1]
+2014/04/29 20:48:12 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->水，面包, balance->2.5, type->1]
+2014/04/29 20:48:38 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->纸巾, balance->1, type->1]
+2014/05/01 15:32:05 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->午饭, balance->8, type->1]
+2014/05/01 15:32:47 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->加油, balance->35.7, type->1]
+2014/05/01 15:33:09 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->房租, balance->1200, type->1]
+2014/05/03 23:46:12 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->Tommy和Adi短裤, balance->54.3, type->1]
+2014/05/03 23:46:43 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->租饥饿游戏：集火者, balance->1.27, type->1]
+2014/05/03 23:47:06 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->租碟, balance->2.54, type->1]
+2014/05/04 20:00:11 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->午餐, balance->1.29, type->1]
+2014/05/04 20:00:24 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->去DC地铁车票, balance->24.5, type->1]
+2014/05/05 22:56:53 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->鸡翅青菜鸡蛋, balance->11, type->1]
+2014/05/05 22:57:06 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->苹果, balance->2.46, type->1]
+2014/05/07 23:56:20 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->迈乐徒步鞋, balance->90, type->1]
+2014/05/10 15:27:47 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->晚饭, balance->30, type->1]
+2014/05/10 15:31:34 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->海苔卷, balance->1.9, type->1]
+2014/05/10 15:32:33 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->牛奶排骨葱等, balance->22.95, type->1]
+2014/05/12 14:28:53 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->5月份车辆保险, balance->49.31, type->1]
+2014/05/12 14:29:28 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->车险, balance->98.7, type->1]
+2014/05/13 22:10:52 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->加油, balance->38.48, type->1]
+2014/05/13 22:11:55 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->巧克力、chees球, balance->2.5, type->1]
+2014/05/13 22:12:20 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->牙膏, balance->1.87, type->1]
+2014/05/13 22:12:40 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->果汁, balance->4.1, type->1]
+2014/05/13 22:13:42 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->饼干菜花鸡蛋牛奶, balance->11.73, type->1]
+2014/05/14 14:19:21 [info] [application] $model failed to pass the validation and request is being redirected to the main page with validation error information.[name->, balance->, type->1]
+2014/05/14 14:19:28 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->午饭, balance->12, type->1]
+2014/05/14 14:19:28 [info] [application] $model failed to pass the validation and request is being redirected to the main page with validation error information.[name->, balance->, type->1]
+2014/05/14 14:19:44 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->模型、油漆等, balance->113, type->1]
+2014/05/14 14:19:44 [info] [application] $model failed to pass the validation and request is being redirected to the main page with validation error information.[name->, balance->, type->1]
+2014/05/14 14:20:39 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->信用卡返现, balance->100, type->2]
+2014/05/14 14:20:39 [info] [application] $model failed to pass the validation and request is being redirected to the main page with validation error information.[name->, balance->, type->1]
+2014/05/17 13:45:02 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->往返西海岸机票, balance->505, type->1]
+2014/05/17 13:46:22 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->香蕉, balance->1, type->1]
+2014/05/17 13:46:42 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->水饺香蕉咸蛋排骨, balance->18.43, type->1]
+2014/05/17 13:46:56 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->午饭, balance->5, type->1]
+2014/05/17 13:47:14 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->Salary, balance->2245, type->2]
+2014/05/17 13:47:52 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->Salary, balance->2245, type->2]
+2014/05/21 15:31:45 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->洗车, balance->8, type->1]
+2014/05/21 15:32:09 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->费城酒店, balance->62, type->1]
+2014/05/21 15:32:29 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->租碟, balance->2.54, type->1]
+2014/05/21 15:32:52 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->猫鱼豆腐白菜, balance->5.5, type->1]
+2014/05/22 21:06:32 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->加油, balance->35.07, type->1]
+2014/05/22 21:07:20 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->啤酒，薯片，巧克力, balance->21, type->1]
+2014/05/22 21:07:36 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->面包, balance->2.49, type->1]
+2014/05/22 21:07:53 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->洗洁精, balance->1.69, type->1]
+2014/05/22 21:08:51 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->香蕉，李子, balance->4.3, type->1]
+2014/05/22 21:09:43 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->拖鞋, balance->5, type->1]
+2014/05/22 21:10:16 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->米猪肉蘑菇水饺等, balance->30.66, type->1]
+2014/05/25 08:58:59 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->停车, balance->30, type->1]
+2014/05/25 08:59:23 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->早餐, balance->26, type->1]
+2014/05/25 08:59:55 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->Tour Bus, balance->22, type->1]
+2014/05/25 09:00:29 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->晚饭, balance->11, type->1]
+2014/05/25 09:01:09 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->邮票, balance->5, type->1]
+2014/05/25 09:04:34 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->看军舰停车, balance->11, type->1]
+2014/05/25 09:04:50 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->新泽西号战列舰, balance->22, type->1]
+2014/05/25 09:05:24 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->过桥费, balance->5, type->1]
+2014/05/25 09:05:40 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->晚餐, balance->7, type->1]
+2014/05/25 09:07:09 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->加油, balance->30.1, type->1]
+2014/05/28 21:07:51 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->午饭, balance->8, type->1]
+2014/05/28 21:08:33 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->汽车遮阳板, balance->3.5, type->1]
+2014/05/28 21:11:00 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->纸巾杯子洗发水洗脸巾, balance->15.8, type->1]
+2014/05/28 21:11:55 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->鸡蛋生菜果汁, balance->6.73, type->1]
+2014/05/28 21:12:20 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->苹果, balance->2.64, type->1]
+2014/05/28 21:12:50 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->牛奶葱罗非, balance->9.18, type->1]
+2014/05/28 21:14:12 [info] [application] ajax request received!
+2014/05/28 21:14:18 [info] [application] $model has passed the validation, going to [UPDATE] to DB.[name->Tour Bus, balance->28, type->1]
+2014/06/03 11:54:48 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->午饭, balance->10.5, type->1]
+2014/06/03 11:57:07 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->饼甜甜圈, balance->6.2, type->1]
+2014/06/03 11:57:12 [info] [application] ajax request received!
+2014/06/03 11:57:22 [info] [application] $model has passed the validation, going to [UPDATE] to DB.[name->饼甜甜圈, balance->6.2, type->1]
+2014/06/03 11:57:45 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->刷锅海绵, balance->3.4, type->1]
+2014/06/04 19:52:04 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->午饭, balance->4.5, type->1]
+2014/06/04 19:52:25 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->午饭, balance->6.8, type->1]
+2014/06/04 19:52:30 [info] [application] ajax request received!
+2014/06/04 19:52:33 [info] [application] $model has passed the validation, going to [UPDATE] to DB.[name->午饭, balance->6.8, type->1]
+2014/06/04 19:53:06 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->加油, balance->33.25, type->1]
+2014/06/04 19:53:43 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->房租, balance->1200, type->1]
+2014/06/07 22:21:42 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->租碟, balance->1.27, type->1]
+2014/06/07 22:22:08 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->面包蜂蜜, balance->6, type->1]
+2014/06/07 22:31:09 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->插座, balance->7.1, type->1]
+2014/06/07 22:31:41 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->背心内裤, balance->14.91, type->1]
+2014/06/07 22:32:55 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->Newseum 门票, balance->24.27, type->1]
+2014/06/07 22:33:32 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->晚饭, balance->42, type->1]
+2014/06/07 22:34:02 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->果汁苹果, balance->6.6, type->1]
+2014/06/07 22:34:55 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->排骨料酒冬瓜等, balance->22, type->1]
+2014/06/07 22:35:35 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->音乐盒, balance->98, type->1]
+2014/06/08 18:10:53 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->往返DC地铁, balance->9, type->1]
+2014/06/08 18:10:56 [info] [application] ajax request received!
+2014/06/08 18:11:16 [info] [application] $model has passed the validation, going to [UPDATE] to DB.[name->Newseum 门票, balance->0, type->1]
+2014/06/08 18:11:34 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->背心, balance->22, type->1]
+2014/06/10 14:01:03 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->pentax k5iis, balance->635, type->1]
+2014/06/10 14:01:30 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->午饭, balance->9.1, type->1]
+2014/06/10 14:01:43 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->午饭, balance->7.5, type->1]
+2014/06/10 14:01:52 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->加油, balance->23.02, type->1]
+2014/06/10 14:03:50 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->AWS服务器, balance->6, type->1]
+2014/06/11 20:18:38 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->薯片, balance->3.6, type->1]
+2014/06/11 20:18:49 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->香蕉, balance->2.4, type->1]
+2014/06/11 20:19:56 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->牛奶鸡蛋牛肉西兰花, balance->13.26, type->1]
+2014/06/14 20:01:10 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->巧克力饼、水, balance->5.72, type->1]
+2014/06/14 20:01:49 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->苹果, balance->2.8, type->1]
+2014/06/14 20:02:08 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->水饺排骨芦笋生菜等, balance->24.13, type->1]
+2014/06/14 20:02:19 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->停车, balance->4, type->1]
+2014/06/14 20:02:31 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->慈善, balance->2, type->1]
+2014/06/14 20:03:07 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->HelloKitty颈枕, balance->17, type->1]
+2014/06/18 20:29:25 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->果汁苹果, balance->5.4, type->1]
+2014/06/18 20:29:54 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->五花肉鸡翅水饺, balance->22.29, type->1]
+2014/06/18 20:30:06 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->加油, balance->38.08, type->1]
+2014/06/21 11:58:39 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->新秀丽行李箱, balance->52, type->1]
+2014/06/21 12:15:23 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->信用卡返现, balance->44.16, type->2]
+2014/06/21 12:15:43 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->Salary, balance->2245, type->2]
+2014/06/26 14:40:04 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->晚饭, balance->25, type->1]
+2014/06/26 14:40:56 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->黄瓜、包, balance->5.6, type->1]
+2014/06/26 14:41:15 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->香蕉, balance->2.8, type->1]
+2014/06/26 14:41:32 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->巧克力, balance->3.9, type->1]
+2014/06/26 14:42:15 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->海绵棒, balance->0.73, type->1]
+2014/06/27 14:19:55 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->午餐, balance->7.3, type->1]
+2014/06/27 14:34:56 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->背心, balance->10, type->1]
+2014/06/27 14:35:12 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->巧克力, balance->14, type->1]
+2014/06/27 14:35:30 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->出租车去机场, balance->25, type->1]
+2014/06/27 14:35:52 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->Salary, balance->2245, type->2]
+2014/07/03 10:47:45 [info] [application] ajax request received!
+2014/07/03 10:47:48 [info] [application] $model has passed the validation, going to [UPDATE] to DB.[name->出租车去机场, balance->30, type->1]
+2014/07/03 10:48:10 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->买烟, balance->7.06, type->1]
+2014/07/03 10:48:14 [info] [application] ajax request received!
+2014/07/03 10:48:18 [info] [application] $model has passed the validation, going to [UPDATE] to DB.[name->买烟, balance->7.06, type->1]
+2014/07/03 10:50:44 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->BART往返旧金山, balance->6.3, type->1]
+2014/07/04 21:45:57 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->红酒、开瓶器, balance->13.3, type->1]
+2014/07/04 21:46:17 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->香蕉, balance->1.15, type->1]
+2014/07/04 21:46:53 [info] [application] ajax request received!
+2014/07/04 21:46:57 [info] [application] $model has passed the validation, going to [UPDATE] to DB.[name->红酒、开瓶器, balance->14, type->1]
+2014/07/04 21:47:33 [info] [application] ajax request received!
+2014/07/04 21:47:39 [info] [application] $model has passed the validation, going to [UPDATE] to DB.[name->红酒、开瓶器, balance->17, type->1]
+2014/07/04 21:48:03 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->面包, balance->1.25, type->1]
+2014/07/04 21:48:17 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->往返DC车票, balance->9.2, type->1]
+2014/07/04 21:48:29 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->水, balance->2, type->1]
+2014/07/04 21:49:06 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->花生, balance->2.6, type->1]
+2014/07/04 21:50:01 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->果汁, balance->2.9, type->1]
+2014/07/04 21:50:46 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->蘑菇生菜泡面鸡蛋, balance->11.6, type->1]
+2014/07/04 21:51:20 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->同性恋游行入场, balance->5, type->1]
+2014/07/04 21:51:37 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->17 miles, balance->10, type->1]
+2014/07/04 21:52:36 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->Back Bay Inn, balance->80, type->1]
+2014/07/04 21:54:20 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->晚餐小费, balance->10, type->1]
+2014/07/04 21:55:03 [info] [application] ajax request received!
+2014/07/04 21:55:06 [info] [application] $model has passed the validation, going to [UPDATE] to DB.[name->音乐盒, balance->58, type->1]
+2014/07/05 19:10:51 [info] [application] ajax request received!
+2014/07/05 19:10:59 [info] [application] $model has passed the validation, going to [UPDATE] to DB.[name->同性恋游行入场, balance->5, type->1]
+2014/07/05 19:14:04 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->加油, balance->59, type->1]
+2014/07/05 19:16:14 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->脱衣舞酒吧, balance->23, type->1]
+2014/07/05 19:16:40 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->午饭-Red Viking, balance->45, type->1]
+2014/07/05 19:17:06 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->明信片与邮票, balance->5.06, type->1]
+2014/07/05 19:17:24 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->住宿, balance->80, type->1]
+2014/07/05 19:17:50 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->Universal Studio, balance->88, type->1]
+2014/07/05 19:18:24 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->Universal Studio 停车, balance->16, type->1]
+2014/07/05 19:18:27 [info] [application] ajax request received!
+2014/07/05 19:18:32 [info] [application] $model has passed the validation, going to [UPDATE] to DB.[name->Universal Studio 停车, balance->16, type->1]
+2014/07/05 19:19:00 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->Universal Studio 礼品, balance->10, type->1]
+2014/07/05 19:19:43 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->加油, balance->53.38, type->1]
+2014/07/05 19:19:54 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->晚饭, balance->19, type->1]
+2014/07/05 19:22:18 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->住宿, balance->95, type->1]
+2014/07/05 19:22:39 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->加油, balance->44, type->1]
+2014/07/05 19:22:56 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->午饭, balance->14, type->1]
+2014/07/05 19:23:13 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->机上WiFi, balance->2, type->1]
+2014/07/05 19:23:33 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->Dior 香水, balance->71, type->1]
+2014/07/05 19:23:57 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->房租, balance->1200, type->1]
+2014/07/05 19:26:13 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->加油, balance->35.79, type->1]
+2014/07/05 19:26:44 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->Shenandoah 礼品, balance->16.83, type->1]
+2014/07/05 19:26:58 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->Shenandoah 年票, balance->30, type->1]
+2014/07/05 19:27:12 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->晚饭, balance->6.88, type->1]
+2014/07/07 21:30:03 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->午饭, balance->6, type->1]
+2014/07/10 16:03:29 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->午饭, balance->11, type->1]
+2014/07/10 16:03:42 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->午饭, balance->20, type->1]
+2014/07/10 16:04:19 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->违章停车罚款, balance->22, type->1]
+2014/07/10 16:06:58 [info] [application] ajax request received!
+2014/07/10 16:07:02 [info] [application] $model has passed the validation, going to [UPDATE] to DB.[name->黄瓜、面包, balance->5.6, type->1]
+2014/07/11 11:01:45 [info] [application] $model failed to pass the validation and request is being redirected to the main page with validation error information.[name->车辆尾气检测+安全监测, balance->44, type->1]
+2014/07/11 11:02:39 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->尾气与安全检测, balance->44, type->1]
+2014/07/11 11:02:39 [info] [application] $model failed to pass the validation and request is being redirected to the main page with validation error information.[name->, balance->, type->1]
+2014/07/11 11:03:05 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->Smartrip, balance->10, type->1]
+2014/07/11 11:03:05 [info] [application] $model failed to pass the validation and request is being redirected to the main page with validation error information.[name->, balance->, type->1]
+2014/07/12 22:49:51 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->加油, balance->40, type->1]
+2014/07/12 22:50:04 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->烟, balance->5.06, type->1]
+2014/07/12 22:50:23 [info] [application] ajax request received!
+2014/07/12 22:51:03 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->午饭, balance->13.61, type->1]
+2014/07/13 15:43:24 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->午饭, balance->26.36, type->1]
+2014/07/13 15:44:11 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->篮球裤子气筒, balance->30, type->1]
+2014/07/13 15:44:34 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->垃圾袋漱口水, balance->10, type->1]
+2014/07/13 15:45:11 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->8G SD卡, balance->11.67, type->1]
+2014/07/14 13:42:46 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->车险, balance->98.7, type->1]
+2014/07/17 22:11:48 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->子弹, balance->27.5, type->1]
+2014/07/17 22:12:44 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->士力架, balance->1.7, type->1]
+2014/07/17 22:13:05 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->香蕉, balance->1.3, type->1]
+2014/07/17 22:14:37 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->红酒鸡蛋牛奶面包, balance->25.31, type->1]
+2014/07/17 22:15:56 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->Salary, balance->2245, type->2]
+2014/07/20 16:45:47 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->3.7, balance->3.7, type->1]
+2014/07/20 16:45:47 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->3.7, balance->3.7, type->1]
+2014/07/20 16:45:53 [info] [application] ajax request received!
+2014/07/20 16:46:05 [info] [application] ajax request received!
+2014/07/20 16:46:08 [info] [application] $model has passed the validation, going to [UPDATE] to DB.[name->3.7, balance->3.7, type->1]
+2014/07/20 16:46:39 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->午饭, balance->11, type->1]
+2014/07/22 11:37:13 [error] [php] include(PDO.php): failed to open stream: No such file or directory (/var/www/html/accountbook/framework/YiiBase.php:418)
+Stack trace:
+#0 /var/www/html/accountbook/framework/db/CDbConnection.php(421): spl_autoload_call()
+#1 /var/www/html/accountbook/framework/db/CDbConnection.php(374): CDbConnection->createPdoInstance()
+#2 /var/www/html/accountbook/framework/db/CDbConnection.php(331): CDbConnection->open()
+#3 /var/www/html/accountbook/framework/db/CDbConnection.php(309): CDbConnection->setActive()
+#4 /var/www/html/accountbook/framework/base/CModule.php(388): CDbConnection->init()
+#5 /var/www/html/accountbook/framework/base/CApplication.php(431): CWebApplication->getComponent()
+#6 /var/www/html/accountbook/framework/db/ar/CActiveRecord.php(615): CWebApplication->getDb()
+#7 /var/www/html/accountbook/framework/db/ar/CActiveRecord.php(2263): User->getDbConnection()
+#8 /var/www/html/accountbook/framework/db/ar/CActiveRecord.php(379): CActiveRecordMetaData->__construct()
+#9 /var/www/html/accountbook/protected/models/User.php(20): model()
+#10 /var/www/html/accountbook/protected/components/UserIdentity.php(24): model()
+#11 /var/www/html/accountbook/protected/models/LoginForm.php(50): UserIdentity->authenticate()
+#12 /var/www/html/accountbook/framework/validators/CInlineValidator.php(43): LoginForm->authenticate()
+#13 /var/www/html/accountbook/framework/validators/CValidator.php(197): CInlineValidator->validateAttribute()
+#14 /var/www/html/accountbook/framework/base/CModel.php(158): CInlineValidator->validate()
+#15 /var/www/html/accountbook/protected/controllers/SiteController.php(49): LoginForm->validate()
+#16 /var/www/html/accountbook/framework/web/actions/CInlineAction.php(50): SiteController->actionLogin()
+#17 /var/www/html/accountbook/framework/web/CController.php(309): CInlineAction->runWithParams()
+#18 /var/www/html/accountbook/framework/web/CController.php(287): SiteController->runAction()
+#19 /var/www/html/accountbook/framework/web/CController.php(266): SiteController->runActionWithFilters()
+#20 /var/www/html/accountbook/framework/web/CWebApplication.php(276): SiteController->run()
+#21 /var/www/html/accountbook/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#22 /var/www/html/accountbook/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#23 /var/www/html/accountbook/index.php(15): CWebApplication->run()
+REQUEST_URI=/accountbook/index.php?r=site/login
+2014/07/22 12:09:23 [error] [php] include(PDO.php): failed to open stream: No such file or directory (/var/www/html/accountbook/framework/YiiBase.php:418)
+Stack trace:
+#0 /var/www/html/accountbook/framework/db/CDbConnection.php(421): spl_autoload_call()
+#1 /var/www/html/accountbook/framework/db/CDbConnection.php(374): CDbConnection->createPdoInstance()
+#2 /var/www/html/accountbook/framework/db/CDbConnection.php(331): CDbConnection->open()
+#3 /var/www/html/accountbook/framework/db/CDbConnection.php(309): CDbConnection->setActive()
+#4 /var/www/html/accountbook/framework/base/CModule.php(388): CDbConnection->init()
+#5 /var/www/html/accountbook/framework/base/CApplication.php(431): CWebApplication->getComponent()
+#6 /var/www/html/accountbook/framework/db/ar/CActiveRecord.php(615): CWebApplication->getDb()
+#7 /var/www/html/accountbook/framework/db/ar/CActiveRecord.php(2263): User->getDbConnection()
+#8 /var/www/html/accountbook/framework/db/ar/CActiveRecord.php(379): CActiveRecordMetaData->__construct()
+#9 /var/www/html/accountbook/protected/models/User.php(20): model()
+#10 /var/www/html/accountbook/protected/components/UserIdentity.php(24): model()
+#11 /var/www/html/accountbook/protected/models/LoginForm.php(50): UserIdentity->authenticate()
+#12 /var/www/html/accountbook/framework/validators/CInlineValidator.php(43): LoginForm->authenticate()
+#13 /var/www/html/accountbook/framework/validators/CValidator.php(197): CInlineValidator->validateAttribute()
+#14 /var/www/html/accountbook/framework/base/CModel.php(158): CInlineValidator->validate()
+#15 /var/www/html/accountbook/protected/controllers/SiteController.php(49): LoginForm->validate()
+#16 /var/www/html/accountbook/framework/web/actions/CInlineAction.php(50): SiteController->actionLogin()
+#17 /var/www/html/accountbook/framework/web/CController.php(309): CInlineAction->runWithParams()
+#18 /var/www/html/accountbook/framework/web/CController.php(287): SiteController->runAction()
+#19 /var/www/html/accountbook/framework/web/CController.php(266): SiteController->runActionWithFilters()
+#20 /var/www/html/accountbook/framework/web/CWebApplication.php(276): SiteController->run()
+#21 /var/www/html/accountbook/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#22 /var/www/html/accountbook/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#23 /var/www/html/accountbook/index.php(15): CWebApplication->run()
+REQUEST_URI=/accountbook/index.php?r=site/login
+2014/07/22 12:15:48 [error] [php] include(PDO.php): failed to open stream: No such file or directory (/var/www/html/accountbook/framework/YiiBase.php:418)
+Stack trace:
+#0 /var/www/html/accountbook/framework/db/CDbConnection.php(421): spl_autoload_call()
+#1 /var/www/html/accountbook/framework/db/CDbConnection.php(374): CDbConnection->createPdoInstance()
+#2 /var/www/html/accountbook/framework/db/CDbConnection.php(331): CDbConnection->open()
+#3 /var/www/html/accountbook/framework/db/CDbConnection.php(309): CDbConnection->setActive()
+#4 /var/www/html/accountbook/framework/base/CModule.php(388): CDbConnection->init()
+#5 /var/www/html/accountbook/framework/base/CApplication.php(431): CWebApplication->getComponent()
+#6 /var/www/html/accountbook/framework/db/ar/CActiveRecord.php(615): CWebApplication->getDb()
+#7 /var/www/html/accountbook/framework/db/ar/CActiveRecord.php(2263): User->getDbConnection()
+#8 /var/www/html/accountbook/framework/db/ar/CActiveRecord.php(379): CActiveRecordMetaData->__construct()
+#9 /var/www/html/accountbook/protected/models/User.php(20): model()
+#10 /var/www/html/accountbook/protected/components/UserIdentity.php(24): model()
+#11 /var/www/html/accountbook/protected/models/LoginForm.php(50): UserIdentity->authenticate()
+#12 /var/www/html/accountbook/framework/validators/CInlineValidator.php(43): LoginForm->authenticate()
+#13 /var/www/html/accountbook/framework/validators/CValidator.php(197): CInlineValidator->validateAttribute()
+#14 /var/www/html/accountbook/framework/base/CModel.php(158): CInlineValidator->validate()
+#15 /var/www/html/accountbook/protected/controllers/SiteController.php(49): LoginForm->validate()
+#16 /var/www/html/accountbook/framework/web/actions/CInlineAction.php(50): SiteController->actionLogin()
+#17 /var/www/html/accountbook/framework/web/CController.php(309): CInlineAction->runWithParams()
+#18 /var/www/html/accountbook/framework/web/CController.php(287): SiteController->runAction()
+#19 /var/www/html/accountbook/framework/web/CController.php(266): SiteController->runActionWithFilters()
+#20 /var/www/html/accountbook/framework/web/CWebApplication.php(276): SiteController->run()
+#21 /var/www/html/accountbook/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#22 /var/www/html/accountbook/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#23 /var/www/html/accountbook/index.php(15): CWebApplication->run()
+REQUEST_URI=/accountbook/index.php?r=site/login
+2014/07/22 12:17:34 [error] [php] include(PDO.php): failed to open stream: No such file or directory (/var/www/html/accountbook/framework/YiiBase.php:418)
+Stack trace:
+#0 /var/www/html/accountbook/framework/db/CDbConnection.php(421): spl_autoload_call()
+#1 /var/www/html/accountbook/framework/db/CDbConnection.php(374): CDbConnection->createPdoInstance()
+#2 /var/www/html/accountbook/framework/db/CDbConnection.php(331): CDbConnection->open()
+#3 /var/www/html/accountbook/framework/db/CDbConnection.php(309): CDbConnection->setActive()
+#4 /var/www/html/accountbook/framework/base/CModule.php(388): CDbConnection->init()
+#5 /var/www/html/accountbook/framework/base/CApplication.php(431): CWebApplication->getComponent()
+#6 /var/www/html/accountbook/framework/db/ar/CActiveRecord.php(615): CWebApplication->getDb()
+#7 /var/www/html/accountbook/framework/db/ar/CActiveRecord.php(2263): User->getDbConnection()
+#8 /var/www/html/accountbook/framework/db/ar/CActiveRecord.php(379): CActiveRecordMetaData->__construct()
+#9 /var/www/html/accountbook/protected/models/User.php(20): model()
+#10 /var/www/html/accountbook/protected/components/UserIdentity.php(24): model()
+#11 /var/www/html/accountbook/protected/models/LoginForm.php(50): UserIdentity->authenticate()
+#12 /var/www/html/accountbook/framework/validators/CInlineValidator.php(43): LoginForm->authenticate()
+#13 /var/www/html/accountbook/framework/validators/CValidator.php(197): CInlineValidator->validateAttribute()
+#14 /var/www/html/accountbook/framework/base/CModel.php(158): CInlineValidator->validate()
+#15 /var/www/html/accountbook/protected/controllers/SiteController.php(49): LoginForm->validate()
+#16 /var/www/html/accountbook/framework/web/actions/CInlineAction.php(50): SiteController->actionLogin()
+#17 /var/www/html/accountbook/framework/web/CController.php(309): CInlineAction->runWithParams()
+#18 /var/www/html/accountbook/framework/web/CController.php(287): SiteController->runAction()
+#19 /var/www/html/accountbook/framework/web/CController.php(266): SiteController->runActionWithFilters()
+#20 /var/www/html/accountbook/framework/web/CWebApplication.php(276): SiteController->run()
+#21 /var/www/html/accountbook/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#22 /var/www/html/accountbook/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#23 /var/www/html/accountbook/index.php(15): CWebApplication->run()
+REQUEST_URI=/accountbook/index.php?r=site/login
+2014/07/22 12:17:39 [error] [php] include(PDO.php): failed to open stream: No such file or directory (/var/www/html/accountbook/framework/YiiBase.php:418)
+Stack trace:
+#0 /var/www/html/accountbook/framework/db/CDbConnection.php(421): spl_autoload_call()
+#1 /var/www/html/accountbook/framework/db/CDbConnection.php(374): CDbConnection->createPdoInstance()
+#2 /var/www/html/accountbook/framework/db/CDbConnection.php(331): CDbConnection->open()
+#3 /var/www/html/accountbook/framework/db/CDbConnection.php(309): CDbConnection->setActive()
+#4 /var/www/html/accountbook/framework/base/CModule.php(388): CDbConnection->init()
+#5 /var/www/html/accountbook/framework/base/CApplication.php(431): CWebApplication->getComponent()
+#6 /var/www/html/accountbook/framework/db/ar/CActiveRecord.php(615): CWebApplication->getDb()
+#7 /var/www/html/accountbook/framework/db/ar/CActiveRecord.php(2263): User->getDbConnection()
+#8 /var/www/html/accountbook/framework/db/ar/CActiveRecord.php(379): CActiveRecordMetaData->__construct()
+#9 /var/www/html/accountbook/protected/models/User.php(20): model()
+#10 /var/www/html/accountbook/protected/components/UserIdentity.php(24): model()
+#11 /var/www/html/accountbook/protected/models/LoginForm.php(50): UserIdentity->authenticate()
+#12 /var/www/html/accountbook/framework/validators/CInlineValidator.php(43): LoginForm->authenticate()
+#13 /var/www/html/accountbook/framework/validators/CValidator.php(197): CInlineValidator->validateAttribute()
+#14 /var/www/html/accountbook/framework/base/CModel.php(158): CInlineValidator->validate()
+#15 /var/www/html/accountbook/protected/controllers/SiteController.php(49): LoginForm->validate()
+#16 /var/www/html/accountbook/framework/web/actions/CInlineAction.php(50): SiteController->actionLogin()
+#17 /var/www/html/accountbook/framework/web/CController.php(309): CInlineAction->runWithParams()
+#18 /var/www/html/accountbook/framework/web/CController.php(287): SiteController->runAction()
+#19 /var/www/html/accountbook/framework/web/CController.php(266): SiteController->runActionWithFilters()
+#20 /var/www/html/accountbook/framework/web/CWebApplication.php(276): SiteController->run()
+#21 /var/www/html/accountbook/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#22 /var/www/html/accountbook/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#23 /var/www/html/accountbook/index.php(15): CWebApplication->run()
+REQUEST_URI=/accountbook/index.php?r=site/login
+2014/07/22 15:22:23 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->午饭, balance->4.8, type->1]
+2014/07/22 15:23:14 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->虚拟主机, balance->6, type->1]
+2014/07/23 19:51:41 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->香肠生菜蘑菇牛奶, balance->30.7, type->1]
+2014/07/23 19:52:08 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->果汁, balance->1.9, type->1]
+2014/07/23 19:56:29 [error] [php] Trying to get property of non-object (/var/www/html/accountbook/protected/models/AccountCategory.php:30)
+Stack trace:
+#0 /var/www/html/accountbook/framework/web/CController.php(309): CInlineAction->runWithParams()
+#1 /var/www/html/accountbook/framework/web/filters/CFilterChain.php(134): AccountStatisticController->runAction()
+#2 /var/www/html/accountbook/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#3 /var/www/html/accountbook/framework/web/filters/CFilterChain.php(131): UserLoginFilter->filter()
+#4 /var/www/html/accountbook/framework/web/CController.php(292): CFilterChain->run()
+#5 /var/www/html/accountbook/framework/web/CController.php(266): AccountStatisticController->runActionWithFilters()
+#6 /var/www/html/accountbook/framework/web/CWebApplication.php(276): AccountStatisticController->run()
+#7 /var/www/html/accountbook/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#8 /var/www/html/accountbook/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#9 /var/www/html/accountbook/index.php(15): CWebApplication->run()
+REQUEST_URI=/accountbook/index.php?r=accountStatistic&AccountStatisticForm%5BstatisticYear%5D=2012&AccountStatisticForm%5BstatisticMonth%5D=5&AccountStatisticForm%5BstatisticType%5D=0
+2014/07/23 19:56:33 [error] [php] Trying to get property of non-object (/var/www/html/accountbook/protected/models/AccountCategory.php:30)
+Stack trace:
+#0 /var/www/html/accountbook/framework/web/CController.php(309): CInlineAction->runWithParams()
+#1 /var/www/html/accountbook/framework/web/filters/CFilterChain.php(134): AccountStatisticController->runAction()
+#2 /var/www/html/accountbook/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#3 /var/www/html/accountbook/framework/web/filters/CFilterChain.php(131): UserLoginFilter->filter()
+#4 /var/www/html/accountbook/framework/web/CController.php(292): CFilterChain->run()
+#5 /var/www/html/accountbook/framework/web/CController.php(266): AccountStatisticController->runActionWithFilters()
+#6 /var/www/html/accountbook/framework/web/CWebApplication.php(276): AccountStatisticController->run()
+#7 /var/www/html/accountbook/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#8 /var/www/html/accountbook/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#9 /var/www/html/accountbook/index.php(15): CWebApplication->run()
+REQUEST_URI=/accountbook/index.php?r=accountStatistic&AccountStatisticForm%5BstatisticYear%5D=2012&AccountStatisticForm%5BstatisticMonth%5D=5&AccountStatisticForm%5BstatisticType%5D=0
+2014/07/24 14:47:09 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->午饭, balance->11, type->1]
+2014/07/24 22:02:51 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->Lulu, balance->3.2, type->1]
+2014/07/24 22:02:55 [info] [application] ajax request received!
+2014/07/24 22:03:00 [info] [application] $model has passed the validation, going to [UPDATE] to DB.[name->Lulu, balance->3.7, type->1]
+2014/07/25 21:00:20 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->午饭, balance->5.3, type->1]
+2014/07/25 21:00:59 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->加油, balance->40.24, type->1]
+2014/07/25 21:09:23 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->维生素鱼油坚果, balance->59, type->1]
+2014/07/25 21:09:40 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->车厘子, balance->7, type->1]
+2014/07/25 21:10:19 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->给CTC同事的零食, balance->22.12, type->1]
+2014/07/25 21:10:39 [info] [application] ajax request received!
+2014/07/25 21:10:45 [info] [application] $model has passed the validation, going to [UPDATE] to DB.[name->给CTC同事的零食, balance->22.12, type->1]
+2014/07/26 13:57:54 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->坦克世界, balance->10, type->1]
+2014/07/27 11:57:55 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->泡面，排骨, balance->11.36, type->1]
+2014/07/29 14:46:00 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->GOOGL, balance->347, type->2]
+2014/07/30 14:33:50 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->午饭, balance->24.59, type->1]
+2014/07/30 22:49:26 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->生菜、蘑菇, balance->4.79, type->1]
+2014/07/30 22:51:34 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->午饭, balance->11, type->1]
+2014/07/30 22:51:38 [info] [application] ajax request received!
+2014/07/30 22:51:44 [info] [application] $model has passed the validation, going to [UPDATE] to DB.[name->午饭, balance->11, type->1]
+2014/08/01 13:36:22 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->TSLA, balance->-293.15, type->2]
+2014/08/01 13:36:53 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->TSLA, balance->-293.15, type->1]
+2014/08/01 13:37:13 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->Salary, balance->2245, type->2]
+2014/08/03 23:14:56 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->买烟送基友, balance->30, type->1]
+2014/08/03 23:15:00 [info] [application] ajax request received!
+2014/08/03 23:15:06 [info] [application] $model has passed the validation, going to [UPDATE] to DB.[name->买烟送基友, balance->30, type->1]
+2014/08/03 23:16:07 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->打车去机场, balance->25, type->1]
+2014/08/04 23:07:09 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->246, balance->246, type->2]
+2014/08/04 23:07:41 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->房租, balance->1200, type->1]
+2014/08/04 23:08:22 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->TSLA, balance->293, type->1]
+2014/08/08 03:30:57 [info] [application] ajax request received!
+2014/08/08 03:31:02 [info] [application] $model has passed the validation, going to [UPDATE] to DB.[name->GOOGL, balance->372, type->2]
+2014/08/08 03:31:24 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->CTRP, balance->626, type->2]
+2014/08/08 03:32:18 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->信用卡返现, balance->28, type->2]
+2014/08/22 00:34:16 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->Liz Climo 的漫画, balance->16, type->1]
+2014/08/22 05:27:29 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->VPS, balance->60, type->1]
+2014/08/31 13:43:41 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->午饭与晚饭, balance->16, type->1]
+2014/08/31 13:44:07 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->车险, balance->95, type->1]
+2014/08/31 13:44:36 [info] [application] ajax request received!
+2014/08/31 13:44:44 [info] [application] $model has passed the validation, going to [UPDATE] to DB.[name->VPS一年, balance->60, type->1]
+2014/08/31 13:45:14 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->Salary, balance->4490, type->2]
+2014/08/31 13:46:05 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->UTZ薯条、果汁, balance->4.2, type->1]
+2014/08/31 13:46:41 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->牛奶鸡蛋巧克力饼, balance->14, type->1]
+2014/08/31 13:46:51 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->洗车, balance->8, type->1]
+2014/09/02 12:02:35 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->引体向上器械, balance->124, type->1]
+2014/09/02 12:02:55 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->车险, balance->95, type->1]
+2014/09/02 12:03:17 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->房租, balance->1200, type->1]
+2014/09/02 13:54:45 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->午饭, balance->16, type->1]
+2014/09/02 19:14:59 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->虾香菇泡面, balance->12.2, type->1]
+2014/09/02 19:15:44 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->虾香菇泡面, balance->12.4, type->1]
+2014/09/02 19:16:18 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->李子草莓, balance->5.15, type->1]
+2014/09/04 11:12:48 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->午饭, balance->8.47, type->1]
+2014/09/04 11:13:03 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->眼科检查copay, balance->10, type->1]
+2014/09/04 18:21:04 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->配隐形眼镜的检查, balance->164, type->1]
+2014/09/05 15:00:24 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->2014下半年车税, balance->174.14, type->1]
+2014/09/05 16:48:19 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->午饭, balance->7.5, type->1]
+2014/09/06 14:45:09 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->草莓、果汁, balance->7.2, type->1]
+2014/09/06 14:45:19 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->红酒, balance->11, type->1]
+2014/09/06 14:45:41 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->面包, balance->2, type->1]
+2014/09/06 14:46:43 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->洗面奶, balance->7.6, type->1]
+2014/09/06 14:47:00 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->捐赠, balance->1, type->1]
+2014/09/06 14:49:40 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->租碟, balance->1.27, type->1]
+2014/09/08 12:27:01 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->下午咖啡, balance->3.7, type->1]
+2014/09/08 14:45:57 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->午饭, balance->6.7, type->1]
+2014/09/08 20:27:48 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->可乐薯片, balance->2.1, type->1]
+2014/09/08 20:28:56 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->西兰花番茄面包意面酱, balance->5.61, type->1]
+2014/09/09 12:40:58 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->洗耳器, balance->30, type->1]
+2014/09/09 12:41:30 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->工作垫, balance->5, type->1]
+2014/09/09 13:53:47 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->午饭, balance->4.5, type->1]
+2014/09/10 09:59:02 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->基金投资收益, balance->296, type->2]
+2014/09/10 14:03:36 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->午饭, balance->9.1, type->1]
+2014/09/11 16:30:52 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->攒机+16G SD卡, balance->915, type->1]
+2014/09/11 17:35:58 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->米黄油牛奶, balance->12.17, type->1]
+2014/09/12 14:42:59 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->午饭, balance->6.4, type->1]
+2014/09/12 19:54:40 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->鸡蛋胡萝卜, balance->6.3, type->1]
+2014/09/12 19:54:54 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->巧克力球, balance->1, type->1]
+2014/09/12 19:55:59 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->扎带隐形眼镜护理液, balance->16.82, type->1]
+2014/09/15 22:33:49 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->午饭, balance->5.1, type->1]
+2014/09/15 22:34:07 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->晚饭, balance->8.5, type->1]
+2014/09/15 22:34:26 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->加油, balance->26.17, type->1]
+2014/09/15 22:34:28 [info] [application] ajax request received!
+2014/09/15 22:34:32 [info] [application] $model has passed the validation, going to [UPDATE] to DB.[name->晚饭, balance->8.5, type->1]
+2014/09/15 22:35:15 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->意粉生菜蘑菇, balance->5.2, type->1]
+2014/09/15 22:35:30 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->眼药水, balance->3.27, type->1]
+2014/09/16 16:39:54 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->博士伦护理液旅行装, balance->10, type->1]
+2014/09/19 09:37:08 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->GOOG, balance->300, type->2]
+2014/09/19 16:38:20 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->无线网卡与蓝牙, balance->41, type->1]
+2014/09/20 08:57:04 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->牛肉酱油葱土豆, balance->11.2, type->1]
+2014/09/20 08:57:46 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->青豆可乐, balance->7.13, type->1]
+2014/09/23 13:58:48 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->午饭, balance->10.5, type->1]
+2014/09/23 13:59:18 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->午饭晚饭, balance->6.2, type->1]
+2014/09/23 19:26:20 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->午饭, balance->10, type->1]
+2014/09/23 19:26:37 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->午饭, balance->9.5, type->1]
+2014/09/23 19:30:13 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->墨镜+清洁套装, balance->218, type->1]
+2014/09/23 21:18:41 [info] [application] ajax request received!
+2014/09/23 21:19:00 [info] [application] $model has passed the validation, going to [UPDATE] to DB.[name->墨镜+清洁套装, balance->218, type->1]
+2014/09/23 21:19:50 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->牛奶饼干番茄, balance->6.6, type->1]
+2014/09/23 21:20:13 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->牙膏, balance->2.28, type->1]
+2014/09/24 13:44:38 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->午饭, balance->7.3, type->1]
+2014/09/24 13:45:16 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->寄信, balance->0.64, type->1]
+2014/09/25 13:58:03 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->IAD - LAX, balance->217, type->1]
+2014/09/25 13:58:26 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->LAX - IAD, balance->217, type->1]
+2014/09/25 13:58:45 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->S, balance->2245, type->2]
+2014/09/25 13:59:36 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->午饭, balance->16.5, type->1]
+2014/09/25 13:59:50 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->晚饭, balance->31, type->1]
+2014/09/26 13:42:43 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->午饭, balance->6, type->1]
+2014/10/15 12:00:58 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->午饭, balance->8.47, type->1]
+2014/10/15 14:43:34 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->午饭, balance->6.77, type->1]
+2014/10/15 14:44:03 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->寄明信片, balance->10.35, type->1]
+2014/10/15 20:14:10 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->面包排骨牛奶米等, balance->26.32, type->1]
+2014/10/15 20:14:26 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->黑巧克力, balance->3.1, type->1]
+2014/10/15 20:14:34 [info] [application] ajax request received!
+2014/10/15 20:15:07 [info] [application] $model has passed the validation, going to [UPDATE] to DB.[name->面包排骨牛奶米等, balance->29.5, type->1]
+2014/10/15 20:16:42 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->卷尺洗衣球文件夹, balance->13, type->1]
+2014/10/15 20:17:42 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->意粉酱蒜红酒等, balance->10.95, type->1]
+2014/10/15 20:18:13 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->Salary, balance->2269, type->2]
+2014/10/15 20:20:34 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->车充, balance->23, type->1]
+2014/10/15 20:20:58 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->可乐, balance->6, type->1]
+2014/10/15 20:23:21 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->晚餐, balance->8.8, type->1]
+2014/10/15 20:23:48 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->早餐, balance->6, type->1]
+2014/10/15 20:23:51 [info] [application] ajax request received!
+2014/10/15 20:23:57 [info] [application] $model has passed the validation, going to [UPDATE] to DB.[name->早餐, balance->6, type->1]
+2014/10/15 20:24:57 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->Levis 牛仔裤, balance->90, type->1]
+2014/10/15 20:25:48 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->去西海岸玩, balance->3340, type->1]
+2014/10/19 17:30:15 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->午饭, balance->4.2, type->1]
+2014/10/19 17:30:30 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->运动长裤, balance->22, type->1]
+2014/10/19 17:31:04 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->午饭, balance->7, type->1]
+2014/10/22 09:54:01 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->午饭, balance->4.6, type->1]
+2014/10/22 10:49:52 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->面包蘑菇豆豉酱, balance->21.3, type->1]
+2014/10/22 10:50:23 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->红梨芒果, balance->4, type->1]
+2014/10/22 10:50:28 [info] [application] ajax request received!
+2014/10/22 10:50:32 [info] [application] $model has passed the validation, going to [UPDATE] to DB.[name->红梨芒果, balance->4, type->1]
+2014/10/22 10:51:01 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->虾片, balance->2.25, type->1]
+2014/10/22 10:51:05 [info] [application] ajax request received!
+2014/10/22 10:51:12 [info] [application] $model has passed the validation, going to [UPDATE] to DB.[name->虾片, balance->2.25, type->1]
+2014/10/22 18:24:25 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->Moto G, balance->191, type->1]
+2014/10/23 23:59:17 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->晚饭, balance->9.53, type->1]
+2014/10/23 23:59:32 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->安卓应用, balance->2.06, type->1]
+2014/10/24 11:56:59 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->加油, balance->24, type->1]
+2014/10/24 11:57:43 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->房租, balance->1200, type->1]
+2014/10/24 12:00:32 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->晚饭, balance->24.4, type->1]
+2014/10/24 12:02:18 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->车险, balance->96, type->1]
+2014/10/25 20:05:25 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->巧克力蛋糕, balance->2, type->1]
+2014/10/25 20:06:01 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->牛奶、鸡蛋、香肠, balance->11.4, type->1]
+2014/10/25 20:06:26 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->零食, balance->10.01, type->1]
+2014/10/25 20:10:11 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->青菜豆豉鲮鱼, balance->5.6, type->1]
+2014/10/25 20:10:33 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->黄桃, balance->2.4, type->1]
+2014/10/25 20:11:16 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->腰果棒, balance->2, type->1]
+2014/10/25 20:11:18 [info] [application] ajax request received!
+2014/10/25 20:11:22 [info] [application] $model has passed the validation, going to [UPDATE] to DB.[name->黄桃, balance->2.4, type->1]
+2014/10/26 20:58:47 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->加油, balance->28.26, type->1]
+2014/10/26 20:59:54 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->午饭, balance->7.41, type->1]
+2014/10/27 14:32:37 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->BABA, balance->1185, type->2]
+2014/10/27 15:04:11 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->穿衣镜, balance->57, type->1]
+2014/10/27 20:06:28 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->红酒, balance->5.7, type->1]
+2014/10/27 20:07:10 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->橡胶手套、洗碗液, balance->8.58, type->1]
+2014/10/29 13:25:54 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->小保养, balance->112, type->1]
+2014/10/29 13:26:09 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->午饭, balance->6, type->1]
+2014/10/29 13:26:25 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->午饭, balance->8, type->1]
+2014/10/29 13:26:29 [info] [application] ajax request received!
+2014/10/29 13:26:36 [info] [application] $model has passed the validation, going to [UPDATE] to DB.[name->午饭, balance->8, type->1]
+2014/10/31 11:41:16 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->Salary, balance->2269, type->2]
+2014/11/01 22:36:38 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->打薄剪刀, balance->15, type->1]
+2014/11/01 22:36:51 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->午饭, balance->4.6, type->1]
+2014/11/02 21:31:10 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->午饭, balance->6.6, type->1]
+2014/11/02 21:31:27 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->加油, balance->31.51, type->1]
+2014/11/02 21:33:04 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->花生油花生酱蘑菇生菜, balance->9.8, type->1]
+2014/11/02 21:33:52 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->橘子和果汁, balance->6.97, type->1]
+2014/11/02 21:34:49 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->晚饭, balance->26, type->1]
+2014/11/02 21:35:05 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->SPA, balance->20, type->1]
+2014/11/03 13:18:53 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->午饭, balance->7.5, type->1]
+2014/11/04 14:30:00 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->午饭, balance->10, type->1]
+2014/11/07 13:32:01 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->午饭, balance->7.2, type->1]
+2014/11/07 13:32:40 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->房租, balance->1200, type->1]
+2014/11/07 13:32:55 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->车险, balance->95, type->1]
+2014/11/09 20:23:22 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->水士力架面包, balance->4.17, type->1]
+2014/11/09 20:24:44 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->牛奶泡面五花肉板栗, balance->19.5, type->1]
+2014/11/09 20:25:05 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->炸猪皮, balance->4, type->1]
+2014/11/10 09:07:18 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->车辆注册, balance->42, type->1]
+2014/11/10 21:56:43 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->青菜蘑菇雪豆姜, balance->4.3, type->1]
+2014/11/10 21:56:56 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->红梨, balance->2.22, type->1]
+2014/11/10 21:58:18 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->蛋糕红酒鸡蛋牛奶等, balance->24.5, type->1]
+2014/11/10 21:58:35 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->巧克力, balance->2.6, type->1]
+2014/11/10 21:59:13 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->开罐头器, balance->2.8, type->1]
+2014/11/10 21:59:38 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->午饭, balance->7.6, type->1]
+2014/11/10 22:00:52 [info] [application] ajax request received!
+2014/11/10 22:01:06 [info] [application] $model has passed the validation, going to [UPDATE] to DB.[name->蛋糕鸡蛋牛奶等, balance->13, type->1]
+2014/11/10 22:01:25 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->红酒, balance->11.5, type->1]
+2014/11/14 10:25:24 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (111)
+2014/11/14 10:25:24 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection.' in /var/www/html/accountbook/framework/db/CDbConnection.php:388
+Stack trace:
+#0 /var/www/html/accountbook/framework/db/CDbConnection.php(331): CDbConnection->open()
+#1 /var/www/html/accountbook/framework/db/CDbConnection.php(309): CDbConnection->setActive(true)
+#2 /var/www/html/accountbook/framework/base/CModule.php(388): CDbConnection->init()
+#3 /var/www/html/accountbook/framework/base/CApplication.php(431): CModule->getComponent('db')
+#4 /var/www/html/accountbook/framework/db/ar/CActiveRecord.php(615): CApplication->getDb()
+#5 /var/www/html/accountbook/framework/db/ar/CActiveRecord.php(2263): CActiveRecord->getDbConnection()
+#6 /var/www/html/accountbook/framework/db/ar/CActiveRecord.php(379): CActiveRecordMetaData->__construct(Object(AccountItem))
+#7 /var/www/html/accountbook/protected/models/AccountItem.php(38): CActiveRecord::model('AccountItem')
+#8 /var/www/html/accountbook/protected/controllers/AccountitemController.php(11): AccountItem::model()
+#9 /var/www/html/accountbook/framework/web/actions/CInlineAction.php(50): AccountItemController->actionIndex()
+#10 /var/www/html/accountbook/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#11 /var/www/html/accountbook/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#12 /var/www/html/accountbook/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#13 /var/www/html/accountbook/framework/web/filters/CFilterChain.php(131): CFilter->filter(Object(CFilterChain))
+#14 /var/www/html/accountbook/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#15 /var/www/html/accountbook/framework/web/filters/CFilterChain.php(131): CFilter->filter(Object(CFilterChain))
+#16 /var/www/html/accountbook/framework/web/CController.php(292): CFilterChain->run()
+#17 /var/www/html/accountbook/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 /var/www/html/accountbook/framework/web/CWebApplication.php(276): CController->run('')
+#19 /var/www/html/accountbook/framework/web/CWebApplication.php(135): CWebApplication->runController('')
+#20 /var/www/html/accountbook/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#21 /var/www/html/accountbook/index.php(15): CApplication->run()
+#22 {main}
+REQUEST_URI=/accountbook/
+---
+2014/11/14 10:26:07 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->换驾照, balance->20, type->1]
+2014/11/15 17:40:32 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->加油, balance->32.68, type->1]
+2014/11/15 17:42:15 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->鸡翅葱番茄豆腐等, balance->20.5, type->1]
+2014/11/15 17:42:34 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->橘子, balance->3.54, type->1]
+2014/11/15 17:42:54 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->花生, balance->1.55, type->1]
+2014/11/17 16:25:48 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->看电影, balance->12.8, type->1]
+2014/11/20 10:22:03 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->Lunch, balance->7.5, type->1]
+2014/11/20 11:31:27 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->AMZN, balance->783.74, type->2]
+2014/11/21 14:59:08 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->LMT, balance->1827.77, type->2]
+2014/11/25 16:43:20 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->Home Inspection, balance->300, type->1]
+2014/11/26 15:29:49 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->午饭, balance->4.6, type->1]
+2014/11/26 15:30:18 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->POLO 毛衣, balance->48, type->1]
+2014/11/26 15:30:51 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->午饭, balance->6.6, type->1]
+2014/11/26 15:32:18 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->葱豆芽牛奶鸡蛋豆腐, balance->23, type->1]
+2014/11/26 15:32:31 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->什么什么脆, balance->2.22, type->1]
+2014/11/26 15:32:58 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->麦当劳, balance->19.5, type->1]
+2014/11/26 15:34:11 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->咸蛋雪豆饺子, balance->18.5, type->1]
+2014/11/26 15:34:26 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->花生, balance->2.2, type->1]
+2014/11/26 15:34:29 [info] [application] ajax request received!
+2014/11/26 15:34:38 [info] [application] $model has passed the validation, going to [UPDATE] to DB.[name->黄飞鸿花生, balance->2.2, type->1]
+2014/11/26 15:35:10 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->红梨, balance->4.61, type->1]
+2014/11/26 15:35:38 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->晚饭, balance->24.34, type->1]
+2014/11/26 15:36:12 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->加油, balance->31.52, type->1]
+2014/11/26 15:37:34 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->打枪, balance->130, type->1]
+2014/11/26 15:38:08 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->航空博物馆停车, balance->15, type->1]
+2014/11/26 15:38:54 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->轩尼诗白兰地, balance->25.39, type->1]
+2014/11/26 15:39:16 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->加油, balance->30.49, type->1]
+2014/11/26 15:39:52 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->晚饭, balance->68.59, type->1]
+2014/11/26 15:41:00 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->午饭, balance->64, type->1]
+2014/11/26 15:41:55 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->午饭和水, balance->10.66, type->1]
+2014/11/26 15:43:17 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->Salary, balance->2269, type->2]
+2014/11/27 16:57:27 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->坦克世界, balance->3.3, type->1]
+2014/11/27 19:24:04 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->棉拖鞋口罩衣架, balance->19, type->1]
+2014/11/27 19:24:49 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->烤鸡热狗等, balance->10.47, type->1]
+2014/11/30 10:09:00 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->Salary, balance->2269, type->2]
+2014/12/04 09:49:53 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->果汁，苹果, balance->4.4, type->1]
+2014/12/04 09:50:43 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->米, balance->8, type->1]
+2014/12/04 09:51:18 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->啫喱，花生, balance->5.35, type->1]
+2014/12/06 22:00:19 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name-> 牛奶生菜士力架, balance->7.76, type->1]
+2014/12/06 22:00:34 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->午饭, balance->7.5, type->1]
+2014/12/06 22:02:53 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->房价评估查信用等, balance->514.71, type->1]
+2014/12/07 20:26:21 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->水, balance->1.4, type->1]
+2014/12/09 14:47:20 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->午饭, balance->18, type->1]
+2014/12/10 21:39:45 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->加油, balance->29.81, type->1]
+2014/12/11 14:52:13 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->午饭, balance->7.2, type->1]
+2014/12/11 21:46:29 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->蛋糕蘑菇生菜, balance->7.8, type->1]
+2014/12/11 21:47:11 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->薯片苹果酱, balance->5, type->1]
+2014/12/11 21:48:43 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->漱口水, balance->8.27, type->1]
+2014/12/14 18:56:22 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (111)
+2014/12/14 18:56:22 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection.' in /var/www/html/accountbook/framework/db/CDbConnection.php:388
+Stack trace:
+#0 /var/www/html/accountbook/framework/db/CDbConnection.php(331): CDbConnection->open()
+#1 /var/www/html/accountbook/framework/db/CDbConnection.php(309): CDbConnection->setActive(true)
+#2 /var/www/html/accountbook/framework/base/CModule.php(388): CDbConnection->init()
+#3 /var/www/html/accountbook/framework/base/CApplication.php(431): CModule->getComponent('db')
+#4 /var/www/html/accountbook/framework/db/ar/CActiveRecord.php(615): CApplication->getDb()
+#5 /var/www/html/accountbook/framework/db/ar/CActiveRecord.php(2263): CActiveRecord->getDbConnection()
+#6 /var/www/html/accountbook/framework/db/ar/CActiveRecord.php(379): CActiveRecordMetaData->__construct(Object(User))
+#7 /var/www/html/accountbook/protected/models/User.php(20): CActiveRecord::model('User')
+#8 /var/www/html/accountbook/protected/components/UserIdentity.php(24): User::model()
+#9 /var/www/html/accountbook/protected/models/LoginForm.php(50): UserIdentity->authenticate()
+#10 /var/www/html/accountbook/framework/validators/CInlineValidator.php(43): LoginForm->authenticate('password', Array)
+#11 /var/www/html/accountbook/framework/validators/CValidator.php(197): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#12 /var/www/html/accountbook/framework/base/CModel.php(158): CValidator->validate(Object(LoginForm), NULL)
+#13 /var/www/html/accountbook/protected/controllers/SiteController.php(49): CModel->validate()
+#14 /var/www/html/accountbook/framework/web/actions/CInlineAction.php(50): SiteController->actionLogin()
+#15 /var/www/html/accountbook/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#16 /var/www/html/accountbook/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#17 /var/www/html/accountbook/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 /var/www/html/accountbook/framework/web/CWebApplication.php(276): CController->run('login')
+#19 /var/www/html/accountbook/framework/web/CWebApplication.php(135): CWebApplication->runController('site/login')
+#20 /var/www/html/accountbook/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#21 /var/www/html/accountbook/index.php(15): CApplication->run()
+#22 {main}
+REQUEST_URI=/accountbook/index.php?r=site/login
+HTTP_REFERER=http://www.reedbell.com/accountbook/index.php?r=site/login
+---
+2014/12/14 18:58:45 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->烤鸡牛奶, balance->8.5, type->1]
+2014/12/14 18:59:14 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->苹果汁，车厘子, balance->8.63, type->1]
+2014/12/14 19:00:17 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->牛角donut方包, balance->5.66, type->1]
+2014/12/14 19:00:45 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->巧克力, balance->2.5, type->1]
+2014/12/14 19:02:10 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->房租, balance->1200, type->1]
+2014/12/14 19:05:14 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->车险, balance->30, type->1]
+2014/12/14 19:05:54 [info] [application] ajax request received!
+2014/12/14 19:06:00 [info] [application] $model has passed the validation, going to [UPDATE] to DB.[name->车险, balance->60, type->1]
+2014/12/18 20:18:56 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->生菜鸡蛋, balance->6.64, type->1]
+2014/12/18 20:19:36 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->蘑菇猪骨番茄, balance->7, type->1]
+2014/12/18 20:19:50 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->红梨, balance->2.2, type->1]
+2014/12/18 20:20:06 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->烤花生, balance->2, type->1]
+2014/12/18 20:20:32 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->Salary, balance->2269, type->2]
+2014/12/18 20:21:15 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->午饭, balance->18, type->1]
+2014/12/24 11:54:21 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2)
+2014/12/24 11:54:21 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection.' in /var/www/html/accountbook/framework/db/CDbConnection.php:388
+Stack trace:
+#0 /var/www/html/accountbook/framework/db/CDbConnection.php(331): CDbConnection->open()
+#1 /var/www/html/accountbook/framework/db/CDbConnection.php(309): CDbConnection->setActive(true)
+#2 /var/www/html/accountbook/framework/base/CModule.php(388): CDbConnection->init()
+#3 /var/www/html/accountbook/framework/base/CApplication.php(431): CModule->getComponent('db')
+#4 /var/www/html/accountbook/framework/db/ar/CActiveRecord.php(615): CApplication->getDb()
+#5 /var/www/html/accountbook/framework/db/ar/CActiveRecord.php(2263): CActiveRecord->getDbConnection()
+#6 /var/www/html/accountbook/framework/db/ar/CActiveRecord.php(379): CActiveRecordMetaData->__construct(Object(User))
+#7 /var/www/html/accountbook/protected/models/User.php(20): CActiveRecord::model('User')
+#8 /var/www/html/accountbook/protected/components/UserIdentity.php(24): User::model()
+#9 /var/www/html/accountbook/protected/models/LoginForm.php(50): UserIdentity->authenticate()
+#10 /var/www/html/accountbook/framework/validators/CInlineValidator.php(43): LoginForm->authenticate('password', Array)
+#11 /var/www/html/accountbook/framework/validators/CValidator.php(197): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#12 /var/www/html/accountbook/framework/base/CModel.php(158): CValidator->validate(Object(LoginForm), NULL)
+#13 /var/www/html/accountbook/protected/controllers/SiteController.php(49): CModel->validate()
+#14 /var/www/html/accountbook/framework/web/actions/CInlineAction.php(50): SiteController->actionLogin()
+#15 /var/www/html/accountbook/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#16 /var/www/html/accountbook/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#17 /var/www/html/accountbook/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 /var/www/html/accountbook/framework/web/CWebApplication.php(276): CController->run('login')
+#19 /var/www/html/accountbook/framework/web/CWebApplication.php(135): CWebApplication->runController('site/login')
+#20 /var/www/html/accountbook/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#21 /var/www/html/accountbook/index.php(15): CApplication->run()
+#22 {main}
+REQUEST_URI=/accountbook/index.php?r=site/login
+HTTP_REFERER=http://www.reedbell.com/accountbook/index.php?r=site/login
+---
+2014/12/24 11:55:11 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->停车, balance->4, type->1]
+2014/12/24 11:55:13 [info] [application] ajax request received!
+2014/12/24 11:55:20 [info] [application] $model has passed the validation, going to [UPDATE] to DB.[name->停车, balance->4, type->1]
+2014/12/24 11:56:26 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->Coffe, balance->9.6, type->1]
+2014/12/24 11:57:23 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->寄快递, balance->13, type->1]
+2014/12/24 11:58:17 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->午饭, balance->7.6, type->1]
+2014/12/24 11:58:39 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->加油, balance->30.56, type->1]
+2014/12/24 11:59:36 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->蛋糕牛奶米, balance->11.6, type->1]
+2014/12/24 12:00:00 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->红酒, balance->12, type->1]
+2014/12/24 12:01:05 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->圣诞贺卡, balance->3.16, type->1]
+2014/12/24 12:02:58 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->排骨肌肉河粉葱青菜, balance->12.7, type->1]
+2014/12/24 12:03:15 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->芝麻酥糖, balance->2.4, type->1]
+2014/12/24 12:03:50 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->Roku2, balance->62, type->1]
+2014/12/30 10:54:05 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->晚饭, balance->7.7, type->1]
+2014/12/30 11:00:07 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->午饭, balance->9.5, type->1]
+2014/12/30 20:15:29 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->牛奶生菜, balance->5.9, type->1]
+2014/12/30 20:15:43 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->啫喱, balance->2, type->1]
+2014/12/30 20:16:40 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->神器WD-40, balance->4.83, type->1]
+2014/12/30 20:44:54 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->鸡蛋饼干, balance->5.5, type->1]
+2014/12/30 20:45:06 [info] [application] ajax request received!
+2014/12/30 20:45:10 [info] [application] $model has passed the validation, going to [UPDATE] to DB.[name->鸡蛋饼干, balance->5.5, type->1]
+2014/12/30 20:45:53 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->巧克力, balance->3.38, type->1]
+2014/12/30 20:48:46 [info] [application] ajax request received!
+2014/12/30 20:48:50 [info] [application] $model has passed the validation, going to [UPDATE] to DB.[name->巧克力, balance->3.38, type->1]
+2014/12/30 20:48:53 [info] [application] ajax request received!
+2014/12/30 20:49:00 [info] [application] $model has passed the validation, going to [UPDATE] to DB.[name->鸡蛋饼干, balance->5.5, type->1]
+2014/12/30 20:50:20 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->蘑菇意粉, balance->5.1, type->1]
+2014/12/30 20:50:53 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->橘子, balance->5.1, type->1]
+2014/12/30 20:53:34 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->鸡翅牛腩花椒番茄, balance->18, type->1]
+2014/12/30 20:54:03 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->橙子, balance->2.23, type->1]
+2015/01/03 12:32:02 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->午饭, balance->3.6, type->1]
+2015/01/03 12:32:15 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->百事可乐, balance->5, type->1]
+2015/01/04 22:32:40 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->午饭, balance->28.5, type->1]
+2015/01/04 22:32:59 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->榔头等工具, balance->29, type->1]
+2015/01/04 22:34:12 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->微波炉遥控插座, balance->160, type->1]
+2015/01/04 22:39:06 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->午饭, balance->7.5, type->1]
+2015/01/04 22:39:19 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->晚饭, balance->4.6, type->1]
+2015/01/04 22:41:10 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->S, balance->2269, type->2]
+2015/01/04 22:42:39 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->创可贴, balance->4.5, type->1]
+2015/01/04 23:04:10 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->梯子体重秤等, balance->97, type->1]
+2015/01/07 10:58:59 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->洗车, balance->10, type->1]
+2015/01/07 15:22:39 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->午饭, balance->11, type->1]
+2015/01/08 11:35:35 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->雪铲锁, balance->37.32, type->1]
+2015/01/08 11:35:45 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->香皂, balance->7, type->1]
+2015/01/08 11:36:41 [info] [application] $model failed to pass the validation and request is being redirected to the main page with validation error information.[name->口罩护目镜浴巾毛巾浴帘等, balance->55.77, type->1]
+2015/01/08 11:37:10 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->口罩护目镜浴帘等, balance->55.77, type->1]
+2015/01/08 11:37:10 [info] [application] $model failed to pass the validation and request is being redirected to the main page with validation error information.[name->, balance->, type->1]
+2015/01/08 11:39:22 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->加油, balance->27.4, type->1]
+2015/01/08 11:39:22 [info] [application] $model failed to pass the validation and request is being redirected to the main page with validation error information.[name->, balance->, type->1]
+2015/01/08 11:44:34 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->加油, balance->20.34, type->1]
+2015/01/08 11:44:35 [info] [application] $model failed to pass the validation and request is being redirected to the main page with validation error information.[name->, balance->, type->1]
+2015/01/11 20:35:28 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->午饭, balance->2.5, type->1]
+2015/01/11 20:45:25 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->花生油青菜牛奶等, balance->18.6, type->1]
+2015/01/11 20:45:43 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->果汁, balance->4.4, type->1]
+2015/01/13 20:28:37 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->排骨萝卜葱, balance->6.56, type->1]
+2015/01/14 10:19:03 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->买电视, balance->15, type->1]
+2015/01/14 10:26:04 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->加油, balance->23.43, type->1]
+2015/01/14 10:26:29 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->修空调, balance->75, type->1]
+2015/01/14 10:26:32 [info] [application] ajax request received!
+2015/01/14 10:26:38 [info] [application] $model has passed the validation, going to [UPDATE] to DB.[name->修空调, balance->75, type->1]
+2015/01/15 16:06:28 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->午饭, balance->7.3, type->1]
+2015/01/15 16:07:04 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->老鼠夹, balance->11, type->1]
+2015/01/15 16:07:12 [info] [application] ajax request received!
+2015/01/15 16:07:16 [info] [application] $model has passed the validation, going to [UPDATE] to DB.[name->老鼠夹, balance->11, type->1]
+2015/01/16 12:06:59 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->天线扳手水平仪, balance->40.5, type->1]
+2015/01/18 20:29:42 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->空调面板, balance->138, type->1]
+2015/01/18 20:29:50 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->午饭, balance->2.5, type->1]
+2015/01/18 20:29:58 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->晚饭, balance->8.6, type->1]
+2015/01/18 20:30:26 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->午饭, balance->4.5, type->1]
+2015/01/18 20:30:31 [info] [application] ajax request received!
+2015/01/18 20:30:42 [info] [application] $model has passed the validation, going to [UPDATE] to DB.[name->午饭, balance->4.5, type->1]
+2015/01/18 20:33:39 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->加油, balance->24.4, type->1]
+2015/01/18 20:34:04 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->午饭, balance->7.6, type->1]
+2015/01/18 20:35:33 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->Salary, balance->2280, type->2]
+2015/01/18 20:36:02 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->房租, balance->1200, type->1]
+2015/01/18 20:50:37 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->SmartTrip充值, balance->20, type->1]
+2015/01/20 18:41:26 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->鸡蛋面包土豆, balance->7, type->1]
+2015/01/20 18:41:44 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->清洁剂, balance->2.57, type->1]
+2015/01/21 11:09:50 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->电费预支, balance->106, type->1]
+2015/01/22 22:21:47 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->加湿器, balance->93, type->1]
+2015/01/23 13:39:53 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->午饭, balance->7.7, type->1]
+2015/01/23 13:39:53 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->午饭, balance->7.7, type->1]
+2015/01/23 13:41:55 [info] [application] $model failed to pass the validation and request is being redirected to the main page with validation error information.[name->116, balance->progressive退还保费, type->2]
+2015/01/23 13:42:25 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->progressive退保费, balance->116.5, type->2]
+2015/01/23 13:42:25 [info] [application] $model failed to pass the validation and request is being redirected to the main page with validation error information.[name->, balance->, type->1]
+2015/01/24 12:40:59 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->amazon prime, balance->72, type->1]
+2015/01/24 17:08:25 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->青菜泡面, balance->4.8, type->1]
+2015/01/24 17:08:47 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->红梨, balance->2.03, type->1]
+2015/01/24 17:11:03 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->面包牛奶饼干, balance->8.2, type->1]
+2015/01/24 17:11:20 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->巧克力, balance->3, type->1]
+2015/01/24 17:11:46 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->洁厕精, balance->4.27, type->1]
+2015/01/24 17:12:02 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->晚饭, balance->4.5, type->1]
+2015/01/24 17:19:05 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->TH Purchase, balance->76408, type->1]
+2015/01/24 17:20:49 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->天然气, balance->95, type->1]
+2015/01/26 12:21:36 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->Ivan帮搬家请吃饭, balance->54, type->1]
+2015/01/26 16:48:43 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->午饭, balance->7.7, type->1]
+2015/01/26 16:49:23 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->加油, balance->22.8, type->1]
+2015/01/27 09:54:25 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->橘子, balance->3.1, type->1]
+2015/01/27 09:54:58 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->面包菠菜鸡蛋, balance->6.6, type->1]
+2015/01/27 09:55:16 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->酸奶, balance->3.04, type->1]
+2015/01/27 09:56:12 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->毯子，胶带, balance->15.12, type->1]
+2015/01/27 09:58:45 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->垃圾桶洗手液刀叉等, balance->98.56, type->1]
+2015/01/28 22:47:44 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->电视柜, balance->53, type->1]
+2015/01/28 22:48:50 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->电钻延长头, balance->6.33, type->1]
+2015/01/28 22:49:36 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->家具, balance->2300, type->1]
+2015/01/28 22:51:18 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->腰带电工钳桌脚垫, balance->16.4, type->1]
+2015/01/28 22:52:22 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->芝麻饼绿豆芽猪肉等, balance->9.84, type->1]
+2015/01/28 22:53:36 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->家具盆栽等, balance->41, type->1]
+2015/01/28 22:59:57 [info] [application] ajax request received!
+2015/01/28 23:00:04 [info] [application] $model has passed the validation, going to [UPDATE] to DB.[name->电钻延长头, balance->6.33, type->1]
+2015/01/28 23:00:14 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name-> 午饭, balance->10, type->1]
+2015/01/29 14:44:44 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->捉松鼠, balance->625, type->1]
+2015/01/29 14:46:06 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->午饭, balance->7.1, type->1]
+2015/01/29 21:45:43 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->整理箱, balance->11.74, type->1]
+2015/01/29 21:46:21 [info] [application] ajax request received!
+2015/01/29 21:46:26 [info] [application] $model has passed the validation, going to [UPDATE] to DB.[name->榔头等工具, balance->28.15, type->1]
+2015/01/29 21:46:26 [info] [application] $model has passed the validation, going to [UPDATE] to DB.[name->榔头等工具, balance->28.15, type->1]
+2015/01/29 21:47:39 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->被套枕套, balance->42.4, type->1]
+2015/01/29 21:47:49 [info] [application] ajax request received!
+2015/01/29 21:47:53 [info] [application] $model has passed the validation, going to [UPDATE] to DB.[name->被套枕套, balance->42.4, type->1]
+2015/01/29 21:50:55 [info] [application] ajax request received!
+2015/01/29 21:51:54 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->灯收纳篮等, balance->304.01, type->1]
+2015/02/01 20:04:19 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->午饭, balance->9, type->1]
+2015/02/01 20:04:45 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->午饭, balance->10, type->1]
+2015/02/01 20:05:11 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->Washington Auto Show, balance->12, type->1]
+2015/02/01 20:05:32 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->晚饭, balance->2.5, type->1]
+2015/02/01 20:07:11 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->蘑菇牛奶, balance->3.8, type->1]
+2015/02/01 20:07:54 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->巧克力果汁酸奶, balance->9.7, type->1]
+2015/02/01 20:08:01 [info] [application] ajax request received!
+2015/02/01 20:08:22 [info] [application] $model has passed the validation, going to [UPDATE] to DB.[name->巧克力果汁酸奶, balance->11, type->1]
+2015/02/01 20:09:24 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->沥水篮毛巾, balance->6.5, type->1]
+2015/02/01 20:10:51 [info] [application] ajax request received!
+2015/02/01 20:11:01 [info] [application] $model has passed the validation, going to [UPDATE] to DB.[name->沥水篮毛巾排插, balance->19.5, type->1]
+2015/02/01 20:11:33 [info] [application] ajax request received!
+2015/02/01 20:11:38 [info] [application] $model has passed the validation, going to [UPDATE] to DB.[name->巧克力果汁酸奶, balance->14.35, type->1]
+2015/02/01 20:11:46 [info] [application] ajax request received!
+2015/02/01 20:11:49 [info] [application] $model has passed the validation, going to [UPDATE] to DB.[name->巧克力果汁酸奶, balance->11, type->1]
+2015/02/01 20:11:52 [info] [application] ajax request received!
+2015/02/01 20:12:09 [info] [application] $model has passed the validation, going to [UPDATE] to DB.[name->蘑菇牛奶盐, balance->7.15, type->1]
+2015/02/01 20:13:50 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->植物架植物等, balance->114.35, type->1]
+2015/02/01 20:15:37 [info] [application] ajax request received!
+2015/02/01 20:15:43 [info] [application] $model has passed the validation, going to [UPDATE] to DB.[name->TH Purchase, balance->74548.53, type->1]
+2015/02/01 20:17:04 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->房贷, balance->1769.47, type->1]
+2015/02/01 20:17:15 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->房贷, balance->1769.47, type->1]
+2015/02/01 20:17:29 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->HOA, balance->90, type->1]
+2015/02/01 20:17:37 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->HOA, balance->90, type->1]
+2015/02/01 20:17:49 [info] [application] ajax request received!
+2015/02/01 20:17:58 [info] [application] $model has passed the validation, going to [UPDATE] to DB.[name->房贷保险税, balance->1769.47, type->1]
+2015/02/01 20:19:55 [info] [application] ajax request received!
+2015/02/01 20:20:04 [info] [application] $model has passed the validation, going to [UPDATE] to DB.[name->扳手水平仪, balance->20.5, type->1]
+2015/02/01 20:20:38 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->S, balance->2280, type->2]
+2015/02/01 20:22:51 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->胡椒，饼干, balance->10.74, type->1]
+2015/02/02 13:14:37 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->信用卡返现, balance->50, type->2]
+2015/02/02 14:48:48 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->午饭, balance->7.1, type->1]
+2015/02/02 20:22:55 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->豆腐番茄小葱姜, balance->4.21, type->1]
+2015/02/02 20:23:11 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->李子, balance->2.5, type->1]
+2015/02/02 20:23:57 [info] [application] ajax request received!
+2015/02/02 20:24:03 [info] [application] $model has passed the validation, going to [UPDATE] to DB.[name->加油, balance->27.4, type->1]
+2015/02/02 20:25:32 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->午饭, balance->10.5, type->1]
+2015/02/02 20:26:20 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->晚饭, balance->7.1, type->1]
+2015/02/02 20:27:02 [info] [application] ajax request received!
+2015/02/02 20:27:09 [info] [application] ajax request received!
+2015/02/02 20:27:24 [info] [application] $model has passed the validation, going to [UPDATE] to DB.[name->口罩护目镜浴帘等, balance->46.27, type->1]
+2015/02/02 20:27:36 [info] [application] ajax request received!
+2015/02/02 20:27:43 [info] [application] $model has passed the validation, going to [UPDATE] to DB.[name->午饭, balance->10.15, type->1]
+2015/02/03 11:07:03 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->AMZN, balance->1377.35, type->2]
+2015/02/03 21:15:08 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->午饭, balance->4.6, type->1]
+2015/02/03 21:16:42 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->锁，雪铲, balance->36, type->1]
+2015/02/03 21:16:46 [info] [application] ajax request received!
+2015/02/03 21:16:51 [info] [application] $model has passed the validation, going to [UPDATE] to DB.[name->锁，雪铲, balance->36, type->1]
+2015/02/03 21:17:18 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->抹布, balance->5.81, type->1]
+2015/02/03 21:18:16 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->擦脚垫植物等, balance->73.9, type->1]
+2015/02/03 21:19:43 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->吸尘器电钻被子等, balance->288.7, type->1]
+2015/02/03 21:19:51 [info] [application] ajax request received!
+2015/02/03 21:19:56 [info] [application] $model has passed the validation, going to [UPDATE] to DB.[name->吸尘器电钻被子等, balance->288.7, type->1]
+2015/02/04 21:18:23 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->罗非鱼，河粉, balance->3.63, type->1]
+2015/02/04 21:20:15 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->笤帚簸箕垃圾篓等, balance->35, type->1]
+2015/02/04 21:20:47 [info] [application] ajax request received!
+2015/02/04 21:20:51 [info] [application] $model has passed the validation, going to [UPDATE] to DB.[name->晚饭, balance->4.8, type->1]
+2015/02/05 14:41:50 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->CTRP, balance->2495.54, type->1]
+2015/02/08 14:12:55 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->灯泡植物集线盒垃圾篓, balance->40.2, type->1]
+2015/02/08 14:13:07 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->晚饭, balance->2.5, type->1]
+2015/02/08 14:16:28 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->碟子抹布面纸锡箔纸, balance->13.3, type->1]
+2015/02/08 14:17:20 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->蛋，葡萄果酱, balance->6.84, type->1]
+2015/02/09 13:07:01 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->笼子，保温泡沫, balance->35, type->1]
+2015/02/10 21:38:10 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->白菜淮山排骨肉末等, balance->36.5, type->1]
+2015/02/10 21:38:55 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->鸡仔饼, balance->4.3, type->1]
+2015/02/10 21:39:20 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->白醋, balance->2, type->1]
+2015/02/10 21:39:58 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->黄桃, balance->2, type->1]
+2015/02/10 21:40:07 [info] [application] ajax request received!
+2015/02/10 21:40:13 [info] [application] $model has passed the validation, going to [UPDATE] to DB.[name->黄桃, balance->1.9, type->1]
+2015/02/10 21:40:17 [info] [application] ajax request received!
+2015/02/10 21:40:20 [info] [application] $model has passed the validation, going to [UPDATE] to DB.[name->鸡仔饼, balance->4, type->1]
+2015/02/10 21:41:44 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->豆腐番茄饺子, balance->6.5, type->1]
+2015/02/10 21:42:10 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->橘子, balance->5.13, type->1]
+2015/02/10 21:42:14 [info] [application] ajax request received!
+2015/02/10 21:42:16 [info] [application] $model has passed the validation, going to [UPDATE] to DB.[name->橘子, balance->5.13, type->1]
+2015/02/11 19:18:00 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->电费押金, balance->272, type->1]
+2015/02/11 19:18:39 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->加油, balance->29, type->1]
+2015/02/11 19:19:25 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->Subway, balance->5, type->1]
+2015/02/11 20:01:10 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->田宫T-55A, balance->62.52, type->1]
+2015/02/11 20:16:57 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->百叶窗, balance->42, type->1]
+2015/02/12 14:26:53 [info] [application] ajax request received!
+2015/02/13 15:46:23 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->S, balance->2282, type->2]
+2015/02/13 20:33:43 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->油漆putty等, balance->25, type->1]
+2015/02/13 20:34:11 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->Sears giftcard, balance->160, type->1]
+2015/02/13 20:34:34 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->红酒，豆奶, balance->13.11, type->1]
+2015/02/13 20:34:54 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->豆芽, balance->1.42, type->1]
+2015/02/13 20:36:00 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->车保, balance->60, type->1]
+2015/02/13 20:36:58 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->车险, balance->60, type->1]
+2015/02/15 20:58:56 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->水管扳手补墙套件等, balance->58, type->1]
+2015/02/15 20:59:28 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->午饭, balance->9, type->1]
+2015/02/15 20:59:30 [info] [application] ajax request received!
+2015/02/15 20:59:34 [info] [application] $model has passed the validation, going to [UPDATE] to DB.[name->午饭, balance->9, type->1]
+2015/02/18 12:03:01 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->午饭, balance->10, type->1]
+2015/02/18 12:03:45 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->排骨青菜等, balance->20, type->1]
+2015/02/19 22:28:51 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->烤鸡红薯鸡蛋等, balance->16.7, type->1]
+2015/02/19 22:29:25 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->笔筒海绵for model building, balance->5.9, type->1]
+2015/02/19 22:29:46 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->酸奶, balance->3.3, type->1]
+2015/02/19 22:31:39 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->洗碗液，冰箱除味盒, balance->4.6, type->1]
+2015/02/24 10:04:16 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->红梨番石榴, balance->6.5, type->1]
+2015/02/24 10:04:30 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->午饭, balance->7.2, type->1]
+2015/02/24 10:05:05 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->白菜葱枸杞芝麻包鲮鱼, balance->17.41, type->1]
+2015/02/28 21:39:59 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->1月20~3月22网费, balance->134.52, type->1]
+2015/02/28 21:40:12 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->午饭, balance->7.2, type->1]
+2015/02/28 21:41:11 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->午饭, balance->7.41, type->1]
+2015/02/28 21:41:38 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->加油, balance->28.86, type->1]
+2015/02/28 21:41:50 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->洗车, balance->11, type->1]
+2015/02/28 21:42:06 [info] [application] ajax request received!
+2015/02/28 21:42:11 [info] [application] $model has passed the validation, going to [UPDATE] to DB.[name->加油, balance->18.86, type->1]
+2015/02/28 21:44:21 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->猫玩具大便铲, balance->32.76, type->1]
+2015/02/28 21:45:50 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->小号灰浆铲透明漆, balance->7.25, type->1]
+2015/03/01 15:58:13 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->储物盒猫碗碗垫毛巾, balance->44.3, type->1]
+2015/03/01 15:59:10 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->马克笔工具刀砂纸, balance->12.46, type->1]
+2015/03/01 15:59:20 [info] [application] ajax request received!
+2015/03/01 16:00:38 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->s, balance->2282, type->2]
+2015/03/01 16:01:43 [info] [application] ajax request received!
+2015/03/01 16:01:46 [info] [application] $model has passed the validation, going to [UPDATE] to DB.[name->马克笔工具刀砂纸, balance->12.46, type->1]
+2015/03/01 16:02:15 [info] [application] ajax request received!
+2015/03/01 16:02:21 [info] [application] $model has passed the validation, going to [UPDATE] to DB.[name->笼子陷阱，保温泡沫, balance->35, type->1]
+2015/03/01 16:03:21 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->房贷保险税, balance->1769.47, type->1]
+2015/03/01 16:03:50 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->车险, balance->60, type->1]
+2015/03/01 16:07:32 [info] [application] ajax request received!
+2015/03/01 16:07:42 [info] [application] $model has passed the validation, going to [UPDATE] to DB.[name->房贷保险税物业, balance->1859.47, type->1]
+2015/03/01 16:09:11 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->煤气, balance->125.7, type->1]
+2015/03/03 15:43:26 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->午饭, balance->4.5, type->1]
+2015/03/04 15:14:26 [info] [application] ajax request received!
+2015/03/04 15:14:28 [info] [application] $model has passed the validation, going to [UPDATE] to DB.[name->午饭, balance->5, type->1]
+2015/03/07 13:23:58 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->小牛角方包鸡蛋豆奶, balance->15, type->1]
+2015/03/07 13:25:09 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->洗面奶擦脸乳抽纸, balance->27.64, type->1]
+2015/03/09 12:26:33 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->午饭, balance->4.5, type->1]
+2015/03/09 12:27:10 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->insulation，rake, balance->104, type->1]
+2015/03/13 10:52:48 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->午饭, balance->7.2, type->1]
+2015/03/14 11:22:06 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->豆腐鲶鱼笋子番茄, balance->19.8, type->1]
+2015/03/14 11:22:25 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->橘子, balance->5, type->1]
+2015/03/14 11:23:17 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->芝麻酥，巧克力, balance->7, type->1]
+2015/03/14 11:24:16 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->漱口水, balance->6.2, type->1]
+2015/03/18 00:53:27 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (111)
+2015/03/18 00:53:27 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection.' in /var/www/html/accountbook/framework/db/CDbConnection.php:388
+Stack trace:
+#0 /var/www/html/accountbook/framework/db/CDbConnection.php(331): CDbConnection->open()
+#1 /var/www/html/accountbook/framework/db/CDbConnection.php(309): CDbConnection->setActive(true)
+#2 /var/www/html/accountbook/framework/base/CModule.php(388): CDbConnection->init()
+#3 /var/www/html/accountbook/framework/base/CApplication.php(431): CModule->getComponent('db')
+#4 /var/www/html/accountbook/framework/db/ar/CActiveRecord.php(615): CApplication->getDb()
+#5 /var/www/html/accountbook/framework/db/ar/CActiveRecord.php(2263): CActiveRecord->getDbConnection()
+#6 /var/www/html/accountbook/framework/db/ar/CActiveRecord.php(379): CActiveRecordMetaData->__construct(Object(User))
+#7 /var/www/html/accountbook/protected/models/User.php(20): CActiveRecord::model('User')
+#8 /var/www/html/accountbook/protected/components/UserIdentity.php(24): User::model()
+#9 /var/www/html/accountbook/protected/models/LoginForm.php(50): UserIdentity->authenticate()
+#10 /var/www/html/accountbook/framework/validators/CInlineValidator.php(43): LoginForm->authenticate('password', Array)
+#11 /var/www/html/accountbook/framework/validators/CValidator.php(197): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#12 /var/www/html/accountbook/framework/base/CModel.php(158): CValidator->validate(Object(LoginForm), NULL)
+#13 /var/www/html/accountbook/protected/controllers/SiteController.php(49): CModel->validate()
+#14 /var/www/html/accountbook/framework/web/actions/CInlineAction.php(50): SiteController->actionLogin()
+#15 /var/www/html/accountbook/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#16 /var/www/html/accountbook/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#17 /var/www/html/accountbook/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 /var/www/html/accountbook/framework/web/CWebApplication.php(276): CController->run('login')
+#19 /var/www/html/accountbook/framework/web/CWebApplication.php(135): CWebApplication->runController('site/login')
+#20 /var/www/html/accountbook/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#21 /var/www/html/accountbook/index.php(15): CApplication->run()
+#22 {main}
+REQUEST_URI=/accountbook/index.php?r=site/login
+HTTP_REFERER=http://www.reedbell.com/accountbook/index.php?r=site/login
+---
+2015/03/18 00:54:13 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->猫抓板猫粮, balance->30, type->1]
+2015/03/18 01:02:48 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->燃气费, balance->176.15, type->1]
+2015/03/18 01:02:52 [info] [application] ajax request received!
+2015/03/18 01:02:55 [info] [application] $model has passed the validation, going to [UPDATE] to DB.[name->燃气费, balance->176.15, type->1]
+2015/03/18 10:56:40 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->模型喷漆台, balance->16, type->1]
+2015/03/18 10:57:06 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->机器猫玩偶, balance->40, type->1]
+2015/03/18 10:57:46 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->瓦数计，分线插座, balance->25.5, type->1]
+2015/03/18 11:00:54 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->S, balance->2280, type->2]
+2015/03/18 11:01:33 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->Bonus, balance->3045, type->2]
+2015/03/18 11:03:57 [info] [application] ajax request received!
+2015/03/18 11:04:00 [info] [application] $model has passed the validation, going to [UPDATE] to DB.[name->洗面奶擦脸乳抽纸, balance->27.64, type->1]
+2015/03/18 11:04:20 [info] [application] ajax request received!
+2015/03/18 11:05:56 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->Hansel领养费, balance->95, type->1]
+2015/03/18 21:00:31 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->JBL条形音箱, balance->82, type->1]
+2015/03/18 21:02:47 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->啤酒花生酸奶等, balance->23.3, type->1]
+2015/03/18 21:03:18 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->水饺排骨烧麦等, balance->34, type->1]
+2015/03/19 10:29:42 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->午饭, balance->7.1, type->1]
+2015/03/19 16:27:08 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->午饭, balance->19, type->1]
+2015/03/20 18:25:27 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->水费, balance->70.85, type->1]
+2015/03/23 14:38:18 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (111)
+2015/03/23 14:38:18 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection.' in /var/www/html/accountbook/framework/db/CDbConnection.php:388
+Stack trace:
+#0 /var/www/html/accountbook/framework/db/CDbConnection.php(331): CDbConnection->open()
+#1 /var/www/html/accountbook/framework/db/CDbConnection.php(309): CDbConnection->setActive(true)
+#2 /var/www/html/accountbook/framework/base/CModule.php(388): CDbConnection->init()
+#3 /var/www/html/accountbook/framework/base/CApplication.php(431): CModule->getComponent('db')
+#4 /var/www/html/accountbook/framework/db/ar/CActiveRecord.php(615): CApplication->getDb()
+#5 /var/www/html/accountbook/framework/db/ar/CActiveRecord.php(2263): CActiveRecord->getDbConnection()
+#6 /var/www/html/accountbook/framework/db/ar/CActiveRecord.php(379): CActiveRecordMetaData->__construct(Object(AccountItem))
+#7 /var/www/html/accountbook/protected/models/AccountItem.php(38): CActiveRecord::model('AccountItem')
+#8 /var/www/html/accountbook/protected/controllers/AccountitemController.php(11): AccountItem::model()
+#9 /var/www/html/accountbook/framework/web/actions/CInlineAction.php(50): AccountItemController->actionIndex()
+#10 /var/www/html/accountbook/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#11 /var/www/html/accountbook/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#12 /var/www/html/accountbook/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#13 /var/www/html/accountbook/framework/web/filters/CFilterChain.php(131): CFilter->filter(Object(CFilterChain))
+#14 /var/www/html/accountbook/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#15 /var/www/html/accountbook/framework/web/filters/CFilterChain.php(131): CFilter->filter(Object(CFilterChain))
+#16 /var/www/html/accountbook/framework/web/CController.php(292): CFilterChain->run()
+#17 /var/www/html/accountbook/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 /var/www/html/accountbook/framework/web/CWebApplication.php(276): CController->run('')
+#19 /var/www/html/accountbook/framework/web/CWebApplication.php(135): CWebApplication->runController('')
+#20 /var/www/html/accountbook/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#21 /var/www/html/accountbook/index.php(15): CApplication->run()
+#22 {main}
+REQUEST_URI=/accountbook/
+---
+2015/03/23 14:38:48 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->午饭, balance->9.2, type->1]
+2015/03/23 14:39:05 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->不粘锅, balance->18.3, type->1]
+2015/03/23 21:50:59 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->烟, balance->5.8, type->1]
+2015/03/23 21:51:44 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->猪肉末红薯土豆蘑菇, balance->10.4, type->1]
+2015/03/25 20:52:34 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->葱豆浆泡面苋菜豆腐, balance->19, type->1]
+2015/03/25 20:53:13 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->核桃酥杏仁酥, balance->9, type->1]
+2015/03/25 20:53:43 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->橘子, balance->3.01, type->1]
+2015/03/25 20:54:48 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->SONY Soundbar, balance->239.64, type->1]
+2015/03/26 12:05:00 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->CTRP, balance->991.09, type->1]
+2015/03/26 12:05:50 [info] [application] ajax request received!
+2015/03/26 12:05:56 [info] [application] ajax request received!
+2015/03/26 12:06:04 [info] [application] $model has passed the validation, going to [UPDATE] to DB.[name->JBL条形音箱, balance->82, type->1]
+2015/03/26 22:18:45 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->擦脚垫猫罐头, balance->16.8, type->1]
+2015/03/26 22:21:30 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->香氛，插座保护盖, balance->11.78, type->1]
+2015/03/27 14:07:08 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->15000mile保养, balance->300, type->1]
+2015/03/27 14:39:27 [info] [application] ajax request received!
+2015/03/27 14:39:39 [info] [application] $model has passed the validation, going to [UPDATE] to DB.[name->Salary, balance->0, type->2]
+2015/03/27 14:39:43 [info] [application] ajax request received!
+2015/03/27 14:39:51 [info] [application] ajax request received!
+2015/03/27 14:39:58 [info] [application] $model has passed the validation, going to [UPDATE] to DB.[name->S, balance->394, type->2]
+2015/03/27 14:42:26 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->S, balance->2248, type->2]
+2015/03/27 14:43:15 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->S, balance->2245, type->2]
+2015/03/27 14:43:31 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->S, balance->2245, type->2]
+2015/03/29 22:09:30 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->番茄豆芽, balance->2.54, type->1]
+2015/03/29 22:10:13 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->混合干果，巧克力饼, balance->7.5, type->1]
+2015/03/29 22:10:39 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->橘子, balance->3.09, type->1]
+2015/03/29 22:11:12 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->加油, balance->28.9, type->1]
+2015/03/29 22:11:32 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->滑门锁, balance->12.7, type->1]
+2015/03/31 11:08:42 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->S, balance->2282, type->2]
+2015/03/31 11:09:36 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->午饭, balance->14, type->1]
+2015/03/31 17:17:26 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->猫砂, balance->16, type->1]
+2015/03/31 17:17:43 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->分线头, balance->5.39, type->1]
+2015/03/31 21:02:05 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->蛋糕豆奶米, balance->13.5, type->1]
+2015/03/31 21:02:42 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->洗衣球洗衣袋, balance->29.66, type->1]
+2015/03/31 21:02:46 [info] [application] ajax request received!
+2015/03/31 21:02:49 [info] [application] $model has passed the validation, going to [UPDATE] to DB.[name->洗衣球洗衣袋, balance->29.66, type->1]
+2015/04/02 16:58:29 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->房贷物业税费, balance->1869.47, type->1]
+2015/04/02 17:00:08 [info] [application] ajax request received!
+2015/04/02 17:00:11 [info] [application] $model has passed the validation, going to [UPDATE] to DB.[name->房贷物业税费, balance->1859.47, type->1]
+2015/04/02 17:00:24 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->车险, balance->60, type->1]
+2015/04/02 22:53:13 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->莲藕土豆河粉白菜, balance->11.19, type->1]
+2015/04/02 22:53:25 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->青岛啤酒, balance->12, type->1]
+2015/04/02 22:55:22 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->水饺排骨鸡腿蘑菇蒜葱, balance->25.11, type->1]
+2015/04/03 10:50:04 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->Cash Reward, balance->33, type->2]
+2015/04/03 13:35:53 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->电话卡, balance->2.5, type->1]
+2015/04/06 11:25:52 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->被子床垫罩充气床, balance->162, type->1]
+2015/04/08 13:54:23 [error] [exception.CDbException] SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (111)
+2015/04/08 13:54:23 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection.' in /var/www/html/accountbook/framework/db/CDbConnection.php:388
+Stack trace:
+#0 /var/www/html/accountbook/framework/db/CDbConnection.php(331): CDbConnection->open()
+#1 /var/www/html/accountbook/framework/db/CDbConnection.php(309): CDbConnection->setActive(true)
+#2 /var/www/html/accountbook/framework/base/CModule.php(388): CDbConnection->init()
+#3 /var/www/html/accountbook/framework/base/CApplication.php(431): CModule->getComponent('db')
+#4 /var/www/html/accountbook/framework/db/ar/CActiveRecord.php(615): CApplication->getDb()
+#5 /var/www/html/accountbook/framework/db/ar/CActiveRecord.php(2263): CActiveRecord->getDbConnection()
+#6 /var/www/html/accountbook/framework/db/ar/CActiveRecord.php(379): CActiveRecordMetaData->__construct(Object(AccountItem))
+#7 /var/www/html/accountbook/protected/models/AccountItem.php(38): CActiveRecord::model('AccountItem')
+#8 /var/www/html/accountbook/protected/controllers/AccountitemController.php(11): AccountItem::model()
+#9 /var/www/html/accountbook/framework/web/actions/CInlineAction.php(50): AccountItemController->actionIndex()
+#10 /var/www/html/accountbook/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#11 /var/www/html/accountbook/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#12 /var/www/html/accountbook/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#13 /var/www/html/accountbook/framework/web/filters/CFilterChain.php(131): CFilter->filter(Object(CFilterChain))
+#14 /var/www/html/accountbook/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#15 /var/www/html/accountbook/framework/web/filters/CFilterChain.php(131): CFilter->filter(Object(CFilterChain))
+#16 /var/www/html/accountbook/framework/web/CController.php(292): CFilterChain->run()
+#17 /var/www/html/accountbook/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 /var/www/html/accountbook/framework/web/CWebApplication.php(276): CController->run('')
+#19 /var/www/html/accountbook/framework/web/CWebApplication.php(135): CWebApplication->runController('')
+#20 /var/www/html/accountbook/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#21 /var/www/html/accountbook/index.php(15): CApplication->run()
+#22 {main}
+REQUEST_URI=/accountbook/
+---
+2015/04/08 13:55:03 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->宽带, balance->62.33, type->1]
+2015/04/08 13:56:29 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->宽带, balance->62.33, type->1]
+2015/04/08 22:49:58 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->擦手纸洗碗布, balance->6.2, type->1]
+2015/04/08 22:50:45 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->酸奶鸡蛋蛋糕烤鸡, balance->15.5, type->1]
+2015/04/08 23:01:01 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->碗碟枕头, balance->20.86, type->1]
+2015/04/09 12:21:03 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->电费, balance->29, type->1]
+2015/04/12 18:25:54 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->接爸妈, balance->5, type->1]
+2015/04/12 18:26:32 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->麦当劳早餐, balance->12.1, type->1]
+2015/04/12 18:27:16 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->来回华盛顿, balance->18.1, type->1]
+2015/04/12 18:27:59 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->加油, balance->16, type->1]
+2015/04/15 16:46:55 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->域名续费, balance->14, type->1]
+2015/04/15 16:47:30 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->碗，炒勺, balance->7.39, type->1]
+2015/04/15 16:48:28 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->番茄生菜, balance->5.6, type->1]
+2015/04/15 16:48:56 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->电动刷头牙刷, balance->24.5, type->1]
+2015/04/15 16:49:25 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->螺丝刀, balance->5.63, type->1]
+2015/04/16 18:04:19 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->米, balance->12.3, type->1]
+2015/04/16 18:04:38 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->开塞露, balance->1.8, type->1]
+2015/04/20 15:34:59 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->晚饭, balance->60, type->1]
+2015/04/20 15:36:05 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->天然气, balance->67.76, type->1]
+2015/05/10 12:23:59 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->青菜肉末河粉番茄, balance->12, type->1]
+2015/05/10 12:24:17 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->啤酒, balance->10.99, type->1]
+2015/05/10 12:24:32 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->停车, balance->5, type->1]
+2015/05/10 12:25:47 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->加油, balance->28.7, type->1]
+2015/05/10 12:26:12 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->阿灵顿公墓停车, balance->5.25, type->1]
+2015/05/10 12:26:14 [info] [application] ajax request received!
+2015/05/10 12:26:17 [info] [application] $model has passed the validation, going to [UPDATE] to DB.[name->加油, balance->28.7, type->1]
+2015/05/10 12:26:35 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->买米, balance->19.5, type->1]
+2015/05/10 12:27:21 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->午饭, balance->17.5, type->1]
+2015/05/10 12:27:43 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->航空博物馆停车, balance->15, type->1]
+2015/05/10 12:28:07 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->星巴克咖啡, balance->10.11, type->1]
+2015/05/10 12:29:13 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->吃龙虾, balance->132.35, type->1]
+2015/05/10 12:29:49 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->晚饭, balance->9.2, type->1]
+2015/05/10 22:14:50 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->猫砂垫, balance->16.5, type->1]
+2015/05/10 22:16:07 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->猫粮猫罐头, balance->15.36, type->1]
+2015/05/10 22:16:30 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->洗车, balance->8, type->1]
+2015/05/10 22:16:49 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->车险, balance->60, type->1]
+2015/05/10 22:17:21 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->房贷物业税费, balance->1859.47, type->1]
+2015/05/11 10:51:12 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->电费, balance->33.6, type->1]
+2015/05/11 12:44:20 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->网费, balance->30, type->1]
+2015/05/11 12:47:32 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->Salary, balance->4632, type->2]
+2015/05/11 12:48:26 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->取钱手续费, balance->5.5, type->1]
+2015/05/11 12:50:04 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->加油, balance->24.36, type->1]
+2015/05/11 12:50:32 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->监控摄像头, balance->42.14, type->1]
+2015/05/11 12:51:33 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->买菜, balance->35.51, type->1]
+2015/05/11 12:53:17 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->N鞋，POLO帽衫, balance->202, type->1]
+2015/05/11 12:53:26 [info] [application] ajax request received!
+2015/05/11 12:53:29 [info] [application] $model has passed the validation, going to [UPDATE] to DB.[name->N鞋，POLO帽衫, balance->202, type->1]
+2015/05/11 12:54:19 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->打车, balance->34.06, type->1]
+2015/05/11 12:55:40 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->纽约大都会艺术博物馆, balance->59, type->1]
+2015/05/11 12:56:23 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->纽约地铁, balance->27.75, type->1]
+2015/05/11 12:56:47 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->无畏号航母博物馆, balance->64, type->1]
+2015/05/11 12:56:50 [info] [application] ajax request received!
+2015/05/11 12:56:55 [info] [application] $model has passed the validation, going to [UPDATE] to DB.[name->无畏号航母博物馆, balance->64, type->1]
+2015/05/11 12:59:07 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->游戏机手柄, balance->32.32, type->1]
+2015/05/11 22:02:29 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->换气扇马桶塞纱窗修复, balance->53, type->1]
+2015/05/12 14:31:18 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->午饭, balance->7, type->1]
+2015/05/15 11:54:14 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->午饭, balance->10.5, type->1]
+2015/05/15 21:43:42 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->榨粉，全鸡, balance->3.19, type->1]
+2015/05/15 21:44:29 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->酱油饼干抓饼河粉, balance->20.15, type->1]
+2015/05/15 21:45:26 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->Salary, balance->2316, type->2]
+2015/05/19 16:37:42 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->午饭, balance->6.3, type->1]
+2015/05/20 21:21:23 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->加油, balance->28.56, type->1]
+2015/05/20 21:22:01 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->菜花, balance->1.2, type->1]
+2015/05/20 21:22:29 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->橘子, balance->5.94, type->1]
+2015/05/20 21:23:39 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->酸奶，核桃仁, balance->11.5, type->1]
+2015/05/20 21:24:06 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->烤鸡鸡蛋豆奶, balance->10.39, type->1]
+2015/05/20 21:24:40 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->猫粮猫罐头猫砂, balance->21.86, type->1]
+2015/05/20 21:26:40 [info] [application] $model has passed the validation, going to [CREATE] to DB.[name->粘毛滚，橡胶手套, balance->4.61, type->1]
+2015/07/15 21:01:11 [info] [application] ajax request received!
+2015/07/15 21:01:15 [info] [application] $model has passed the validation, going to [UPDATE] to DB.[name->茶几地毯镜子, balance->310, type->1]

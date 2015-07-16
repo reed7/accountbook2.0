@@ -21,6 +21,14 @@ class AccountCategory extends CActiveRecord
 		$criteria->params = array(':account_type'=>$type);
 		return AccountCategory::model()->findAll($criteria);
 	}
+
+	public static function getCategoryNameById($id) {
+		$criteria = new CDbCriteria();
+		$criteria->condition = 'id = :category_id';
+		$criteria->params = array(':category_id'=>$id);
+		$result = AccountCategory::model()->find($criteria);
+		return $result->category_name;
+	}
 	
 	/**
 	 * Returns the static model of the specified AR class.

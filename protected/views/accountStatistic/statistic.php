@@ -12,16 +12,23 @@
 		foreach($statisticList as $statisticItem){
 			$rowIdx++;
 			$balance = $statisticItem->balance;
+			$urlTemplate = '?r=accountStatistic&AccountStatisticForm[statisticYear]='. $statisticItem->year . '&AccountStatisticForm[statisticMonth]=' . $statisticItem->month . '&AccountStatisticForm[statisticType]=' . $statisticItem->globalType . '&AccountStatisticForm[categoryId]=';
+
 			if($statisticItem->type == '1'){
 				$totalOut += $balance;
 				$className = 'black_right';
 			} else {
 				$totalIn += $balance;
 				$className = 'red_right';
-			}
-		
+			}		
 		?>
-			<tr <?php if($rowIdx % 2 == 0) echo 'class="alt"'?>><td><?php echo $statisticItem->category_name?></td>			
+			<tr <?php if(!is_null($currentCategoryId) && $currentCategoryId === $statisticItem->categoryId) echo 'class="focus"'; elseif($rowIdx % 2 == 0) echo 'class="alt"'?>>
+			<td>
+				<a href="<?php echo Yii::app()->homeUrl . $urlTemplate . $statisticItem->categoryId?>"/>
+				<?php echo $statisticItem->categoryName?>
+				<?php if(!is_null($currentCategoryId) && $currentCategoryId === $statisticItem->categoryId) { echo '<a href="' . Yii::app()->homeUrl . $urlTemplate . '0"><img src="/accountbook/images/transparent.gif" class="delete_item"></a>'; }?>
+				</a>
+			</td>			
 			<td class='<?php echo $className?>'><?php echo $balance?></td></tr>
 			
 		<?php } // end foreach?>

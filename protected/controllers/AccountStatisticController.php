@@ -12,6 +12,7 @@ class AccountStatisticController extends Controller
 			$statisticYear = $form->statisticYear;
 			$statisticMonth = $form->statisticMonth;
 			$statisticType = $form->statisticType;
+			$categoryId = $form->categoryId;
 			
 			switch($statisticType){
 				case 0: $textType = '收支'; break;
@@ -50,11 +51,27 @@ class AccountStatisticController extends Controller
 					$timeEnd = mktime(0, 0, 0, $statisticMonth+1, 1, $statisticYear);
 				}
 				
-				$statisticListCriteria->addCondition(array("account_date >= $timeStart", "account_date <= $timeEnd"));
-				$accountItemListCriteria->addCondition(array("account_date >= $timeStart", "account_date <= $timeEnd"));
+				$statisticListCriteria->addCondition(array("account_date >= $timeStart", "account_date < $timeEnd"));
+				$accountItemListCriteria->addCondition(array("account_date >= $timeStart", "account_date < $timeEnd"));
+				if(!is_null($categoryId) && $categoryId !== '0') {
+					$accountItemListCriteria->addCondition(array("category_id = $categoryId"));
+				}
 			}
 			
-			$statisticList = AccountItem::model()->findAll($statisticListCriteria);
+			$array = AccountItem::model()->findAll($statisticListCriteria);
+			$statisticList = array();
+
+			foreach ($array as $row) {
+				$statisticItem = new StatisticItem();				
+				$statisticItem->categoryName = AccountCategory::getCategoryNameById($row->category_id);
+				$statisticItem->categoryId = $row->category_id;
+				$statisticItem->type = $row->type;
+				$statisticItem->globalType = $statisticType;
+				$statisticItem->balance = $row->balance;
+				$statisticItem->year = $statisticYear;
+				$statisticItem->month = $statisticMonth;
+				$statisticList[] = $statisticItem;
+			}
 
 			$count = AccountItem::model()->count($accountItemListCriteria);
 			$pages = new CPagination($count);
@@ -75,7 +92,7 @@ class AccountStatisticController extends Controller
 			$this->innerPage = Controller::PAGE_STATISTIC;
 			
 			$this->render('statistic', 
-					array('accountItemModels'=>$accountItemList, 'statisticList'=>$statisticList, 'pages'=>$pages, 'pageText'=>$pageText, 'form'=>$form));
+					array('accountItemModels'=>$accountItemList, 'statisticList'=>$statisticList, 'currentCategoryId'=>$categoryId, 'pages'=>$pages, 'pageText'=>$pageText, 'form'=>$form));
 		} else {
 			throw new CHttpException(400, 'The post data is empty!');
 		}
