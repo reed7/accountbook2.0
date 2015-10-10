@@ -8,7 +8,7 @@
 return array(
 	'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
 	'name'=>'Reed\'s Account Book',
-	'homeUrl'=>'http://www.reedbell.com/accountbook/index.php',
+	'homeUrl'=>'http://accountbook.reedbell.com/accountbook/index.php',
 
 	// preloading 'log' component
 	'preload'=>array('log'),
