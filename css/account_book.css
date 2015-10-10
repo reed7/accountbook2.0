@@ -96,7 +96,7 @@ a {
 .list_row {
 	overflow: hidden;
 	margin: 5px 15px 0px;
-	background: url('/accountbook/images/dash.gif') repeat-x bottom;
+	background: url('../images/dash.gif') repeat-x bottom;
 	height: 29px;
 	line-height: 28px;
 }
