@@ -26,7 +26,7 @@
 			<td>
 				<a href="<?php echo Yii::app()->homeUrl . $urlTemplate . $statisticItem->categoryId?>"/>
 				<?php echo $statisticItem->categoryName?>
-				<?php if(!is_null($currentCategoryId) && $currentCategoryId === $statisticItem->categoryId) { echo '<a href="' . Yii::app()->homeUrl . $urlTemplate . '0"><img src="/accountbook/images/transparent.gif" class="delete_item"></a>'; }?>
+				<?php if(!is_null($currentCategoryId) && $currentCategoryId === $statisticItem->categoryId) { echo '<a href="' . Yii::app()->homeUrl . $urlTemplate . '0"><img src="<?php echo Yii::app()->getBaseUrl();?>/images/transparent.gif" class="delete_item"></a>'; }?>
 				</a>
 			</td>			
 			<td class='<?php echo $className?>'><?php echo $balance?></td></tr>

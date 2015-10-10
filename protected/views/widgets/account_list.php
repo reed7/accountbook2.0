@@ -50,10 +50,10 @@ if($item->type == 2){
 	<span class='comment' title='<?php echo $item->comment?>'><?php echo $item->comment?></span>
 	<span class='balance' style='color: <?php echo $fontColor?>'><?php echo $item->balance?></span>	
 	<a href='javascript:return false;' onclick='javascript:showUpdateDiv(<?php echo $item->id?>);' title='修改'>
-		<img src="/accountbook/images/transparent.gif" class="update_item"/>
+		<img src="<?php echo Yii::app()->getBaseUrl();?>/images/transparent.gif" class="update_item"/>
 	</a>	
 	<a href='javascript:return false;' onclick='javascript:return confirmDel(<?php echo $item->id?>);' title='删除'>
-		<img src="/accountbook/images/transparent.gif" class="delete_item"/>
+		<img src="<?php echo Yii::app()->getBaseUrl();?>/images/transparent.gif" class="delete_item"/>
 	</a>
 </div>
 <?php
