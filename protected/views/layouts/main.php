@@ -10,7 +10,7 @@
 	break;
 	case Controller::PAGE_STATISTIC :
 	?>
-	<link rel="stylesheet" href='<?php Yii::app()->basePath?>/css/statistic.css' type="text/css"></link>
+	<link rel="stylesheet" href='<?php Yii::app()->getBaseUrl(true)?>/css/statistic.css' type="text/css"></link>
 	<link rel="stylesheet" href="/accountbook/css/account_book.css" type="text/css"></link>
 	<link rel="stylesheet" href="/accountbook/css/account_item_detail.css" type="text/css"></link>
 	<?php 
