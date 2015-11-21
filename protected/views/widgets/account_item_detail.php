@@ -6,7 +6,7 @@
 		<!-- name -->
 		<div class="edit_input left">
 			<span style="color:red">*</span><span class="edit_label">记账项目:</span>		
-			<input type='text' name='AccountItem[name]' id='name' maxLength='60' required/>
+			<input type='text' name='AccountItem[name]' id='name' maxLength='30' required/>
 		</div>
 		
 		<!-- type -->
