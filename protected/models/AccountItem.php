@@ -57,7 +57,7 @@ class AccountItem extends CActiveRecord
 			array('name, account_date, balance, category_id', 'required'),
 			array('type, is_hidden', 'numerical', 'integerOnly'=>true),
 			array('balance', 'numerical'),
-			array('name, account_date, location', 'length', 'max'=>64),
+			array('name, account_date, location', 'length', 'max'=>120),
 			array('category_id', 'length', 'max'=>11),
 			array('comment', 'length', 'max'=>128),
 			array('id, gmt_create', 'safe'),
