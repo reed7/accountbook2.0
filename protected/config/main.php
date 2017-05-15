@@ -55,10 +55,10 @@ return array(
 		*/		
 		
 		'db'=>array(
-			'connectionString' => 'mysql:host=localhost;dbname=account_book',
+			'connectionString' => 'mysql:host=mysql;dbname=accountbook',
 			'emulatePrepare' => true,
-			'username' => 'root',
-			'password' => 'forkitty29',
+			'username' => 'accountbook',
+			'password' => '',
 			'charset' => 'utf8',
 		),
 		
